@@ -1,6 +1,6 @@
 # Weather Icons v2
 
-A curated, AI-assisted weather icon set maintained by **pgpaolo**.
+A curated, weather icon set maintained by **pgpaolo**.
 
 This repository provides transparent PNG weather assets with stable filenames for use in web dashboards, personal weather stations, embedded projects, WeeWX/Weather34-style interfaces, and other filename-based weather themes.
 
