@@ -1,0 +1,35 @@
+name: Refresh icon metadata
+
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - 'icons/**'
+      - '.github/workflows/refresh-metadata.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Rebuild generated metadata
+        run: python tools/build_metadata.py
+
+      - name: Commit refreshed metadata
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json docs/ICON_CATALOG.md docs/GALLERY.md
+          if git diff --cached --quiet; then
+            echo "Generated metadata already up to date."
+            exit 0
+          fi
+          git commit -m "chore: refresh generated icon metadata"
+          git push origin HEAD:develop
