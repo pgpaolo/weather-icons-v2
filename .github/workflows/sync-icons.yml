@@ -1,0 +1,55 @@
+name: Sync source bundle
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "dist/_upload/READY"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check import sentinel
+        id: sentinel
+        shell: bash
+        run: |
+          if [ -f dist/_upload/READY ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Reconstruct canonical ZIP
+        if: steps.sentinel.outputs.present == 'true'
+        shell: bash
+        run: |
+          cat dist/_upload/part-*.b64 | tr -d '\n\r' | base64 --decode > dist/source-icons.zip
+          test -s dist/source-icons.zip
+          unzip -t dist/source-icons.zip >/dev/null
+
+      - name: Synchronize assets
+        if: steps.sentinel.outputs.present == 'true'
+        run: |
+          python tools/sync_bundle.py dist/source-icons.zip
+          python tools/build_metadata.py
+          rm -rf dist/_upload
+
+      - name: Commit synchronized assets
+        if: steps.sentinel.outputs.present == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: publish Weather Icons v2 asset bundle"
+          git push

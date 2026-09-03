@@ -1,0 +1,31 @@
+name: Icon / mapping problem
+description: Report a filename, dimension, transparency or semantic mismatch
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File or mapping key
+      placeholder: rainandsnow.png
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem type
+      options:
+        - Wrong weather semantics
+        - Wrong filename
+        - Wrong dimensions
+        - Transparency problem
+        - Mapping target problem
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true

@@ -1,0 +1,31 @@
+name: Validate icon set
+
+on:
+  push:
+    paths:
+      - "icons/**"
+      - "mappings/**"
+      - "manifest.json"
+      - "docs/ICON_CATALOG.md"
+      - "docs/GALLERY.md"
+      - "tools/build_metadata.py"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "icons/**"
+      - "mappings/**"
+      - "manifest.json"
+      - "docs/ICON_CATALOG.md"
+      - "docs/GALLERY.md"
+      - "tools/build_metadata.py"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify metadata and mappings
+        run: python tools/build_metadata.py --check

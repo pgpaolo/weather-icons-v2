@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this icon set, please credit the project using the attribution information in ATTRIBUTION.md."
+title: "Weather Icons v2"
+type: dataset
+authors:
+  - alias: "pgpaolo"
+version: "2.0.0"
+date-released: "2026-09-03"
+license: "CC-BY-SA-4.0"
+repository-code: "https://github.com/pgpaolo/weather-icons-v2"
+url: "https://github.com/pgpaolo/weather-icons-v2"
+keywords:
+  - weather
+  - icons
+  - meteorology
+  - png
+  - transparent
+  - weather-station
