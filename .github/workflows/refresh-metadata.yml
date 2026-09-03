@@ -1,0 +1,76 @@
+name: Refresh icon metadata
+
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - 'icons/**'
+      - 'mappings/**'
+      - '.github/workflows/refresh-metadata.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Rebuild generated metadata
+        run: python tools/build_metadata.py
+
+      - name: Refresh canonical source bundle
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import os
+          import tempfile
+          import zipfile
+
+          bundle = Path('dist/source-icons.zip')
+          icons = Path('icons')
+          mapping = Path('mappings/aeris-icon-list.json')
+
+          prefix = 'NuoveICO'
+          if bundle.exists():
+              with zipfile.ZipFile(bundle, 'r') as src:
+                  png_members = [n for n in src.namelist() if n.lower().endswith('.png')]
+                  if png_members:
+                      parent = Path(png_members[0]).parent.as_posix()
+                      if parent and parent != '.':
+                          prefix = parent
+
+          bundle.parent.mkdir(parents=True, exist_ok=True)
+          fd, tmp_name = tempfile.mkstemp(prefix='source-icons-', suffix='.zip', dir=bundle.parent)
+          os.close(fd)
+          tmp = Path(tmp_name)
+
+          try:
+              with zipfile.ZipFile(tmp, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as out:
+                  out.writestr(f'{prefix}/', b'')
+                  if mapping.exists():
+                      out.write(mapping, f'{prefix}/aeris-icon-list.json')
+                  for icon in sorted(icons.glob('*.png'), key=lambda p: p.name.lower()):
+                      out.write(icon, f'{prefix}/{icon.name}')
+              os.replace(tmp, bundle)
+          finally:
+              if tmp.exists():
+                  tmp.unlink()
+          PY
+
+      - name: Commit refreshed generated assets
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json docs/ICON_CATALOG.md docs/GALLERY.md dist/source-icons.zip
+          if git diff --cached --quiet; then
+            echo "Generated metadata and source bundle already up to date."
+            exit 0
+          fi
+          git commit -m "chore: refresh generated icon metadata and source bundle"
+          git push origin HEAD:develop

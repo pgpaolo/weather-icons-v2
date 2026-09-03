@@ -4,6 +4,12 @@ All notable changes to Weather Icons v2 are documented here.
 
 The project follows semantic versioning for published icon-set releases.
 
+## [Unreleased]
+
+### Changed
+- Refreshed `clear-night.png` and `clearn.png` with larger moon artwork while preserving the 110×110 px canvas, RGBA transparency and compact web-oriented file size.
+- Added automatic metadata refresh on `develop` when icon assets change, keeping `manifest.json` and the generated icon catalog synchronized.
+
 ## [2.0.0] - 2026-09-03
 
 ### Added

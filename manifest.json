@@ -79,23 +79,23 @@
     },
     {
       "file": "clear-night.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 10062,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1675567,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "07b329d8a1631088920706ac1a4ada0690a56ae52e9575c11a2f555feffeda2c"
+      "sha256": "43f26c52e7d6a43fadd5a6c1abf96d47bd1de9a30dd74ac444ae6c34b66df88e"
     },
     {
       "file": "clearn.png",
       "width": 110,
       "height": 110,
-      "bytes": 11305,
+      "bytes": 12658,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4ba0021926fab1560cd5f1bd12c5b6c900ad684dfbb466b37392cdf85680885d"
+      "sha256": "6551f362f800f36320b3b495d957f1cd7c11f615b613652b5372525ac5725ad1"
     },
     {
       "file": "cloudy.png",
