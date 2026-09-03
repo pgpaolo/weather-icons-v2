@@ -79,13 +79,13 @@
     },
     {
       "file": "clear-night.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13160,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1675567,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "3ba574c67e05d0a60b99ad96c9c1dd239c66051ac22c555e8a61f9d1ecd26c86"
+      "sha256": "43f26c52e7d6a43fadd5a6c1abf96d47bd1de9a30dd74ac444ae6c34b66df88e"
     },
     {
       "file": "clearn.png",
