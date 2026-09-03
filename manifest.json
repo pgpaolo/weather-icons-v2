@@ -85,7 +85,7 @@
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "c259fd1e6a5e3763be82ea81c021c5be64509d52cbfa66dad0253f0ce7e55987"
+      "sha256": "3ba574c67e05d0a60b99ad96c9c1dd239c66051ac22c555e8a61f9d1ecd26c86"
     },
     {
       "file": "clearn.png",
@@ -95,7 +95,7 @@
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "0805376653184e2d2e402167d6078fe228a71a87aaa91de368309eedbeeb3cf9"
+      "sha256": "6551f362f800f36320b3b495d957f1cd7c11f615b613652b5372525ac5725ad1"
     },
     {
       "file": "cloudy.png",
