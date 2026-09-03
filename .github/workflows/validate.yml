@@ -28,4 +28,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Verify metadata and mappings
-        run: python tools/build_metadata.py --check
+        shell: bash
+        run: |
+          if [ ! -d icons ]; then
+            echo "icons/ not published yet; validation will activate after the first source bundle sync."
+            exit 0
+          fi
+          python tools/build_metadata.py --check
