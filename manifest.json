@@ -1321,21 +1321,21 @@
       "file": "Test.png",
       "width": 128,
       "height": 128,
-      "bytes": 36118,
+      "bytes": 32035,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "12f07e337488803f95e13766d58b67be2167832a24bb7822e558ca00a148e5e5"
+      "sha256": "47d42f10c3cd06c73e51f4ec160d1846158783404cdac66924ce127130d54acf"
     },
     {
       "file": "thunderstorm.png",
       "width": 110,
       "height": 110,
-      "bytes": 27788,
+      "bytes": 24375,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ab1bcf5bae05f19f885e2a6578fd4a56c85dcd1f3a64d49a8373a4ab236ce0cf"
+      "sha256": "a0fcbc8061e47c6981e9702670866b520086e15605e8a0c922ce1132b1863fc5"
     },
     {
       "file": "tornado.png",
@@ -1351,61 +1351,61 @@
       "file": "tstorm.png",
       "width": 110,
       "height": 110,
-      "bytes": 25972,
+      "bytes": 23422,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "da6ca03035920c76b7a41f8ac2bf8b5c45a899af8d38c8ce4192c0ae6a40e699"
+      "sha256": "e595fd7fa2e05839a6b9321b232071fe7837bb0378e50fc44957e40a51998f99"
     },
     {
       "file": "tstormn.png",
       "width": 110,
       "height": 110,
-      "bytes": 24445,
+      "bytes": 22169,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "81412d8e49057694e36de3fc73741b54a470918282b1469fdef658fd0a47bd61"
+      "sha256": "ca08cd210938e9e9be9296a88616aecc1f6119035c1553ee374768f91263767e"
     },
     {
       "file": "tstorms.png",
       "width": 110,
       "height": 110,
-      "bytes": 24734,
+      "bytes": 21095,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "db7da5d52d990e4ccda33187568506e4c9e23639e103b3c59ab0b3e4398d9f50"
+      "sha256": "09ebcd1a04d5b03aa377d5d31d25166808020b55ec494062efa8c74e990945df"
     },
     {
       "file": "tstormsn.png",
       "width": 110,
       "height": 110,
-      "bytes": 25326,
+      "bytes": 20723,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ccf4ed7a25e6a3db6ecdccaaeecb520ded80e90bc0a05c8fd7eacdcfb4c8b1c9"
+      "sha256": "3e7189119d5f9e2491c3fd62dd34fd3aed0f129597c766ac3237cbed9ee5da04"
     },
     {
       "file": "tstormsw.png",
       "width": 110,
       "height": 110,
-      "bytes": 24528,
+      "bytes": 21669,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4ad6d98fda8329fd0efd38d2b05c5bc9accaceda2107d48bfbcafca8becb0278"
+      "sha256": "5ae1f71a29325afbc95e9ed584dbe8ad00f6fc8a8e8ad7b7f4b7d15e55167c10"
     },
     {
       "file": "tstormswn.png",
       "width": 110,
       "height": 110,
-      "bytes": 24442,
+      "bytes": 22243,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "31a0872309693e4de2683ef85a069ef2ed0802e99d3134e143450fff1242b222"
+      "sha256": "16d7d8022bd88f5108dcc7547d1f430f6b3f83ae596445b1fadc19ad2363fdda"
     },
     {
       "file": "undefined.png",
@@ -1471,11 +1471,11 @@
       "file": "wintrymixn.png",
       "width": 110,
       "height": 110,
-      "bytes": 24523,
+      "bytes": 21235,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "dc7cea2dc76579996f797b9d3d2e0887b2e6252d443e4e1c968322dfce9c93fb"
+      "sha256": "fab4c6e3aaf1c8be707efa7bbf2548beb710ff3803fe3d7c583fffba8d85e7a5"
     }
   ]
 }
