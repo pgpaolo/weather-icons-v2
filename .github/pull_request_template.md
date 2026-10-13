@@ -9,8 +9,8 @@ Describe the icon or mapping change.
 - [ ] PNG assets use RGBA transparency.
 - [ ] Weather semantics remain consistent with the filename/mapping.
 - [ ] `python tools/build_metadata.py --check` passes.
-- [ ] Modified artwork is identified where required.
-- [ ] I have the rights/permissions needed to contribute this material under CC BY-SA 4.0.
+- [ ] I have the rights/permissions needed to contribute this material.
+- [ ] I understand that the project uses the Weather Icons Personal Use License and does not grant commercial reuse rights.
 
 ## Visual review
 

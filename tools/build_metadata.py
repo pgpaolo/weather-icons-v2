@@ -69,11 +69,13 @@ def validate_mapping(icon_names: set[str]) -> dict:
 
 def manifest_text(items: list[dict], mapping: dict) -> str:
     payload = {
-        "project": "Weather Icons v2",
+        "project": "Weather Icons",
         "version": "2.0.0",
         "repository": "https://github.com/pgpaolo/weather-icons-v2",
-        "license": "CC-BY-SA-4.0",
-        "creator_attribution": "pgpaolo",
+        "license": "Weather Icons Personal Use License 1.0",
+        "license_url": "https://github.com/pgpaolo/weather-icons-v2/blob/main/LICENSE",
+        "rightsholder": "Gianpaolo P. (pgpaolo)",
+        "commercial_use": "Requires prior written permission from Gianpaolo P. (pgpaolo)",
         "icon_count": len(items),
         "mapping_count": len(mapping),
         "icons": items,
