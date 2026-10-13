@@ -1,24 +1,23 @@
 # Branching model
 
-The repository uses a stable-main plus short-lived feature-branch model.
+The repository keeps the stable published set on `main` and preserves each
+artwork generation in a dedicated permanent branch.
 
-- `main` — stable published version.
-- `feature/*` — temporary review branches created directly from `main` for artwork, mapping, documentation or tooling changes.
+- `main` — stable published set.
+- `develop` — integration branch, kept aligned with `main` unless active development is in progress.
+- `v2` — version 2 artwork.
+- `v2.5` — version 2.5 artwork.
+- `v3` — version 3 artwork.
+- `v3.5` — version 3.5 artwork.
 
-Current candidate branch:
+## Recommended flow
 
-```text
-feature/weather-icons-v3-redesign
-```
+1. Work on the appropriate version branch for artwork changes.
+2. Keep filenames and canvas dimensions compatible unless a breaking change is intentional.
+3. Let GitHub Actions regenerate metadata and the canonical source bundle.
+4. Validate the branch.
+5. Promote the selected version to `main` only after review.
+6. Realign `develop` with `main` after publication.
 
-Recommended flow:
-
-1. start the feature branch from the current `main`;
-2. make the artwork and documentation changes in that branch;
-3. run the full metadata, mapping and PNG validation;
-4. perform a visual review;
-5. open a pull request from the feature branch to `main`;
-6. merge only after the candidate passes review;
-7. delete the feature branch after publication.
-
-There is no permanent `develop` integration branch in the simplified model. Direct commits to `main` should be limited to controlled repository maintenance or approved publishing operations.
+The version branches are long-lived historical/artwork branches and should not
+be deleted after release.
