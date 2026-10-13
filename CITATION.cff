@@ -1,12 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this icon set, please credit the project using the attribution information in ATTRIBUTION.md."
-title: "Weather Icons v2"
+message: "If you use this icon set, credit Gianpaolo P. (pgpaolo) and comply with the Weather Icons Personal Use License."
+title: "Weather Icons"
 type: dataset
 authors:
-  - alias: "pgpaolo"
+  - given-names: "Gianpaolo"
+    family-names: "P."
+    alias: "pgpaolo"
 version: "2.0.0"
 date-released: "2026-09-03"
-license: "CC-BY-SA-4.0"
+license-url: "https://github.com/pgpaolo/weather-icons-v2/blob/main/LICENSE"
 repository-code: "https://github.com/pgpaolo/weather-icons-v2"
 url: "https://github.com/pgpaolo/weather-icons-v2"
 keywords:

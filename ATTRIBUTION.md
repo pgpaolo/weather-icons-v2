@@ -1,38 +1,26 @@
-# Attribution
+# Attribution and copyright
 
-The designated creator attribution for this project is **pgpaolo**.
+**Weather Icons** is a proprietary weather icon collection by
+**Gianpaolo P.**, GitHub identity **pgpaolo**.
 
-## Preferred credit
-
-```text
-Weather Icons v2 by pgpaolo
-https://github.com/pgpaolo/weather-icons-v2
-CC BY-SA 4.0
-```
-
-A compact form is also acceptable where space is limited:
-
-```text
-Weather Icons v2 — pgpaolo — CC BY-SA 4.0
-```
-
-When hyperlinks are supported, link the project name or `pgpaolo` to:
+Canonical repository:
 
 https://github.com/pgpaolo/weather-icons-v2
 
-## Modified versions
-
-If you share a modified version of an icon, indicate that changes were made
-and comply with the ShareAlike requirement of CC BY-SA 4.0.
-
-Example:
+## Copyright notice
 
 ```text
-Based on Weather Icons v2 by pgpaolo
+Weather Icons © 2026 Gianpaolo P. (pgpaolo)
 https://github.com/pgpaolo/weather-icons-v2
-Modified by <your name/project>
-CC BY-SA 4.0
+Personal use only — commercial use requires prior written permission.
 ```
 
-Attribution may be provided in any reasonable manner appropriate to the
-medium, consistent with CC BY-SA 4.0.
+For private/offline domestic use, visible credit is not required. If a
+permitted personal non-commercial project is publicly accessible, the credit
+above must be displayed in a reasonable location.
+
+Commercial, professional, business, institutional, promotional, sponsored,
+or monetized use requires separate prior written authorization from
+**Gianpaolo P. (pgpaolo)**.
+
+See [LICENSE](LICENSE) for the controlling terms.
