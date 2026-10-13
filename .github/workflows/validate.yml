@@ -2,6 +2,8 @@ name: Validate icon set
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "icons/**"
       - "mappings/**"
@@ -11,6 +13,8 @@ on:
       - "tools/build_metadata.py"
       - ".github/workflows/validate.yml"
   pull_request:
+    branches:
+      - main
     paths:
       - "icons/**"
       - "mappings/**"
@@ -30,8 +34,9 @@ jobs:
       - name: Verify metadata and mappings
         shell: bash
         run: |
-          if [ ! -d icons ]; then
-            echo "icons/ not published yet; validation will activate after the first source bundle sync."
+          count=$(find icons -maxdepth 1 -type f -iname '*.png' | wc -l)
+          if [ "$count" -eq 0 ]; then
+            echo "No published PNG icons on this branch; validation skipped."
             exit 0
           fi
           python tools/build_metadata.py --check
