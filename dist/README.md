@@ -1,16 +1,17 @@
 # Distribution bundle
 
-`dist/source-icons.zip` is the canonical import bundle for Weather Icons v2.
+`dist/source-icons.zip` is the canonical generated bundle for the currently
+selected branch.
 
-When this ZIP is added or replaced on `main`, the `Sync source bundle` GitHub Actions workflow automatically:
+For version branches (`v2`, `v2.5`, `v3`, `v3.5`), update PNG files in
+`icons/`. The **Refresh icon metadata** workflow then regenerates:
 
-1. validates the ZIP archive;
-2. publishes all PNG files into `icons/`;
-3. publishes `aeris-icon-list.json` into `mappings/`;
-4. regenerates `manifest.json`;
-5. regenerates `docs/ICON_CATALOG.md` and `docs/GALLERY.md`;
-6. commits the synchronized assets back to `main`.
+1. `manifest.json`;
+2. `docs/ICON_CATALOG.md`;
+3. `docs/GALLERY.md`;
+4. `dist/source-icons.zip`.
 
-The source archive may contain a single top-level folder. The synchronization tool normalizes the published repository layout.
+`main` remains the stable published branch.
 
-See `docs/PUBLISHING.md` for the one-file publishing procedure.
+See `docs/PUBLISHING.md` and `docs/VERSION_BRANCHES.md` for the publishing
+and branch model.
