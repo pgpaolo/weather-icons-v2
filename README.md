@@ -1,34 +1,32 @@
 # Weather Icons v2
 
-A curated, weather icon set maintained by **pgpaolo**.
+A curated weather icon set maintained by **pgpaolo**.
 
 This repository provides transparent PNG weather assets with stable filenames for use in web dashboards, personal weather stations, embedded projects, WeeWX/Weather34-style interfaces, and other filename-based weather themes.
 
 > **Designated attribution:** `Weather Icons v2 by pgpaolo — https://github.com/pgpaolo/weather-icons-v2 — CC BY-SA 4.0`
 
-## v3.5 artwork candidate
+## Version branches
 
-The branch `feature/weather-icons-v3-redesign` is the review branch for the **v3.5 artwork refresh**.
+The project keeps the stable published set on `main` and uses one dedicated branch for each artwork generation:
 
-The candidate source archive has been checked before publication:
+| Branch | Purpose |
+|---|---|
+| `v2` | Version 2 artwork |
+| `v2.5` | Version 2.5 artwork |
+| `v3` | Version 3 artwork |
+| `v3.5` | Version 3.5 artwork |
+| `main` | Stable published set |
 
-- **147 PNG assets**
-- the **same 147 filenames** as the current published set
-- **PNG/RGBA transparency** for every asset
-- dimensions compatible with the existing filename contract
-- **no detected non-transparent pixels touching the canvas edges**
-- Aeris mapping filenames remain compatible
-- source archive size: **3,008,127 bytes**
+Each version branch is intentionally independent. Its `icons/` directory is the upload target for that specific icon package. After PNG files are uploaded, GitHub Actions regenerates the machine-readable manifest, icon catalog, visual gallery, and canonical ZIP bundle for that branch.
 
-The detailed verification record is available in [docs/V3_5_REVIEW.md](docs/V3_5_REVIEW.md).
-
-Until the candidate is reviewed and merged, **`main` remains the stable published branch**.
+See [docs/VERSION_BRANCHES.md](docs/VERSION_BRANCHES.md).
 
 ## Status
 
-- **Stable version:** 2.0.0 (`main`)
-- **Artwork candidate:** v3.5 (`feature/weather-icons-v3-redesign`)
-- **Assets:** 147 transparent PNG files
+- **Stable branch:** `main`
+- **Version branches:** `v2`, `v2.5`, `v3`, `v3.5`
+- **Expected icon set:** 147 transparent PNG assets per version
 - **Weather mapping:** `aeris-icon-list.json` with 113 mappings
 - **Primary canvas:** 110×110 px for most weather conditions
 - **Transparency:** PNG/RGBA
@@ -38,12 +36,12 @@ Until the candidate is reviewed and merged, **`main` remains the stable publishe
 
 ```text
 weather-icons-v2/
-├── icons/                  # Published PNG assets
+├── icons/                  # PNG assets for the selected branch/version
 ├── mappings/               # Weather-code / filename mappings
-├── docs/                   # Catalog, gallery and review notes
-├── dist/                   # Canonical source bundle
+├── docs/                   # Catalog, gallery and project documentation
+├── dist/                   # Canonical source bundle generated for the branch
 ├── tools/                  # Validation / metadata utilities
-├── .github/workflows/      # Automated validation and bundle sync
+├── .github/workflows/      # Automated validation and metadata refresh
 ├── ATTRIBUTION.md
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
@@ -55,19 +53,19 @@ weather-icons-v2/
 
 ## Quick use
 
-Clone the stable repository:
+Clone the stable set:
 
 ```bash
 git clone https://github.com/pgpaolo/weather-icons-v2.git
 ```
 
-To review the v3.5 candidate:
+Clone a specific artwork generation:
 
 ```bash
-git clone --branch feature/weather-icons-v3-redesign https://github.com/pgpaolo/weather-icons-v2.git
+git clone --branch v3.5 https://github.com/pgpaolo/weather-icons-v2.git
 ```
 
-Copy the files you need from `icons/` into your application's weather-icon directory. The published filenames are intentionally stable so applications can map a weather condition directly to a PNG file.
+Then copy the files you need from `icons/` into your application's weather-icon directory. The published filenames are intentionally stable so applications can map a weather condition directly to a PNG file.
 
 Example HTML:
 
@@ -87,7 +85,18 @@ Example CSS:
 
 ## Aeris-style mapping
 
-The repository includes `mappings/aeris-icon-list.json`. It maps weather-condition identifiers to icon basenames. All mapping targets are validated automatically against the files in `icons/`.
+The repository includes `mappings/aeris-icon-list.json`. It maps weather-condition identifiers to icon basenames. Mapping targets are validated against the files in `icons/` before a version is promoted to `main`.
+
+## Automated metadata
+
+On version branches, an icon upload automatically refreshes:
+
+- `manifest.json`
+- `docs/ICON_CATALOG.md`
+- `docs/GALLERY.md`
+- `dist/source-icons.zip`
+
+Validation is enforced on `main` and on pull requests toward the stable branch.
 
 ## Attribution and reuse
 
@@ -105,30 +114,25 @@ Where hyperlinks are supported, linking `pgpaolo` or `Weather Icons v2` to this 
 
 See [ATTRIBUTION.md](ATTRIBUTION.md), [NOTICE.md](NOTICE.md), and [LICENSE](LICENSE).
 
-## Extending the set
-
-Contributions are welcome. New icons should preserve the visual language of the set, use a transparent PNG canvas, follow the existing filename conventions, and avoid silently changing the semantics of existing filenames.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Generated metadata
-
-`manifest.json`, `docs/ICON_CATALOG.md`, and `docs/GALLERY.md` are generated from the published assets and checked by CI. This makes filename, dimensions, file size, PNG color type, and SHA-256 information auditable.
-
 ---
 
 ## Italiano
 
-**Weather Icons v2** è una raccolta di icone meteo curate e rifinite da **pgpaolo**, pensata per applicazioni web, stazioni meteo personali e progetti che associano le condizioni atmosferiche al nome del file.
+**Weather Icons v2** è una raccolta di icone meteo mantenuta da **pgpaolo**.
 
-Il branch `feature/weather-icons-v3-redesign` contiene il candidato grafico **v3.5**. Prima della pubblicazione il pacchetto è stato verificato per nomi file, dimensioni, trasparenza RGBA e margini; il dettaglio è in [docs/V3_5_REVIEW.md](docs/V3_5_REVIEW.md).
+Il repository usa un branch separato per ogni generazione grafica:
 
-Le icone sono distribuite con licenza **CC BY-SA 4.0**. È consentito usarle, redistribuirle e modificarle nel rispetto delle condizioni della licenza. L'attribuzione designata è:
+- `v2`
+- `v2.5`
+- `v3`
+- `v3.5`
+
+Il branch `main` rimane la versione stabile pubblicata. In ogni branch versione la cartella `icons/` è dedicata esclusivamente alle PNG di quella release. Dopo il caricamento delle immagini, GitHub Actions rigenera automaticamente manifest, catalogo, gallery e archivio ZIP canonico.
+
+Le icone sono distribuite con licenza **CC BY-SA 4.0**.
 
 ```text
 Weather Icons v2 by pgpaolo
 https://github.com/pgpaolo/weather-icons-v2
 CC BY-SA 4.0
 ```
-
-Per modifiche o nuove condizioni meteo, aprire una issue o una pull request seguendo [CONTRIBUTING.md](CONTRIBUTING.md).
