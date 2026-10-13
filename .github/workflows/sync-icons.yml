@@ -2,7 +2,9 @@ name: Sync source bundle
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
+      - feature/weather-icons-v3-redesign
     paths:
       - "dist/source-icons.zip"
 
@@ -37,4 +39,4 @@ jobs:
             exit 0
           fi
           git commit -m "chore: sync icons from canonical source bundle"
-          git push
+          git push origin HEAD
