@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "repository": "https://github.com/pgpaolo/weather-icons-v2",
   "license": "Weather Icons Personal Use License 1.0",
+  "license_url": "https://github.com/pgpaolo/weather-icons-v2/blob/main/LICENSE",
+  "rightsholder": "Gianpaolo P. (pgpaolo)",
+  "commercial_use": "Requires prior written permission from Gianpaolo P. (pgpaolo)",
   "icon_count": 147,
   "mapping_count": 113,
   "icons": [
@@ -1476,8 +1479,5 @@
       "rgba": true,
       "sha256": "fab4c6e3aaf1c8be707efa7bbf2548beb710ff3803fe3d7c583fffba8d85e7a5"
     }
-  ],
-  "license_url": "https://github.com/pgpaolo/weather-icons-v2/blob/main/LICENSE",
-  "rightsholder": "Gianpaolo P. (pgpaolo)",
-  "commercial_use": "Requires prior written permission from Gianpaolo P. (pgpaolo)"
+  ]
 }
