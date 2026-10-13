@@ -2,12 +2,12 @@
 
 Weather Icons v2 keeps artwork generations separated by branch.
 
-| Branch | Icon archive to upload |
-|---|---|
-| `v2` | `icons-v2.zip` |
-| `v2.5` | `icons-v2.5.zip` |
-| `v3` | `icons-v3.zip` |
-| `v3.5` | `icons-v3.5.zip` |
+| Branch | Source archive | Status |
+|---|---|---|
+| `v2` | `icons-v2.zip` | Populated — 147 PNG |
+| `v2.5` | `icons-v2.5.zip` | Populated — 147 PNG |
+| `v3` | `icons-v3.zip` | Populated — 147 PNG |
+| `v3.5` | `icons-v3.5.zip` | Populated — 147 PNG |
 
 ## Upload procedure
 
