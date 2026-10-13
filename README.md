@@ -10,13 +10,13 @@ This repository provides transparent PNG weather assets with stable filenames fo
 
 The project keeps the stable published set on `main` and uses one dedicated branch for each artwork generation:
 
-| Branch | Purpose |
-|---|---|
-| `v2` | Version 2 artwork |
-| `v2.5` | Version 2.5 artwork |
-| `v3` | Version 3 artwork |
-| `v3.5` | Version 3.5 artwork |
-| `main` | Stable published set |
+| Branch | Purpose | Current status |
+|---|---|---|
+| `v2` | Version 2 artwork | 147 PNG |
+| `v2.5` | Version 2.5 artwork | 147 PNG |
+| `v3` | Version 3 artwork | 147 PNG |
+| `v3.5` | Version 3.5 artwork | 147 PNG |
+| `main` | Stable published set | 147 PNG |
 
 Each version branch is intentionally independent. Its `icons/` directory is the upload target for that specific icon package. After PNG files are uploaded, GitHub Actions regenerates the machine-readable manifest, icon catalog, visual gallery, and canonical ZIP bundle for that branch.
 
@@ -26,7 +26,7 @@ See [docs/VERSION_BRANCHES.md](docs/VERSION_BRANCHES.md).
 
 - **Stable branch:** `main`
 - **Version branches:** `v2`, `v2.5`, `v3`, `v3.5`
-- **Expected icon set:** 147 transparent PNG assets per version
+- **Current icon sets:** 147 transparent PNG assets on `main`, `v2`, `v2.5`, `v3`, and `v3.5`
 - **Weather mapping:** `aeris-icon-list.json` with 113 mappings
 - **Primary canvas:** 110×110 px for most weather conditions
 - **Transparency:** PNG/RGBA
