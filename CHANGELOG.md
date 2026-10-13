@@ -9,7 +9,9 @@ The project follows semantic versioning for published icon-set releases.
 ### Repository structure
 - Introduced dedicated artwork branches: `v2`, `v2.5`, `v3`, and `v3.5`.
 - `main` remains the stable published branch.
-- Version branches are prepared as isolated upload workspaces for their corresponding 147-PNG icon packages.
+- Version branches are isolated workspaces for their corresponding 147-PNG icon packages.
+- Populated `v2`, `v2.5`, `v3`, and `v3.5` with 147 PNG assets each.
+- Generated branch metadata and canonical source bundles successfully after each upload.
 - Metadata refresh automation now supports all version branches.
 - Stable validation is enforced on `main` and pull requests before promotion.
 
