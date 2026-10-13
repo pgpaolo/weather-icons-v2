@@ -1,34 +1,26 @@
 # Changelog
 
-All notable changes to Weather Icons v2 are documented here.
-
-The project follows semantic versioning for published icon-set releases.
+All notable changes to Weather Icons are documented here.
 
 ## [Unreleased]
 
-### Repository structure
-- Introduced dedicated artwork branches: `v2`, `v2.5`, `v3`, and `v3.5`.
-- `main` remains the stable published branch.
-- Version branches are prepared as isolated upload workspaces for their corresponding 147-PNG icon packages.
-- Metadata refresh automation now supports all version branches.
-- Stable validation is enforced on `main` and pull requests before promotion.
+### Licensing
+- Replaced CC BY-SA 4.0 with the proprietary Weather Icons Personal Use License 1.0.
+- Personal, private, domestic and hobby non-commercial use is permitted.
+- Commercial, professional, business and institutional use requires prior written permission from Gianpaolo P. (pgpaolo).
+- Updated copyright, attribution, contribution and repository documentation accordingly.
 
-### Artwork history
-- Four supplied artwork archives are tracked as distinct generations: v2, v2.5, v3, and v3.5.
-- All generations preserve the filename-based integration model used by the project.
-- Aeris mapping compatibility remains part of the release validation process.
+### Repository structure
+- Dedicated artwork branches: `v2`, `v2.5`, `v3`, and `v3.5`.
+- `main` remains the stable published branch.
+- Each version branch contains 147 PNG assets.
+- Metadata and canonical source bundles are generated automatically.
 
 ## [2.0.0] - 2026-09-03
 
 ### Added
-- Initial public release of Weather Icons v2.
+- Initial public release.
 - 147 transparent PNG assets.
 - Aeris-style mapping with 113 condition mappings.
-- Machine-readable manifest with dimensions, file size, PNG color type and SHA-256.
-- Visual gallery and icon catalog.
-- CC BY-SA 4.0 licensing and designated attribution to `pgpaolo`.
+- Machine-readable manifest, visual gallery and icon catalog.
 - Automated bundle synchronization and repository validation.
-
-### Notes
-- Most condition icons use a 110×110 px canvas.
-- Special-purpose status, station and scale assets retain their native dimensions.

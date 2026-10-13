@@ -1,29 +1,38 @@
 # Notice
 
-## Project identity
+## Project identity and rightsholder
 
-**Weather Icons v2** is maintained under the public GitHub identity
+**Weather Icons** is maintained by **Gianpaolo P.**, public GitHub identity
 **pgpaolo**.
 
 Canonical repository:
 
 https://github.com/pgpaolo/weather-icons-v2
 
-## Artwork provenance
+Copyright © 2026 Gianpaolo P. (pgpaolo). All rights reserved, subject to the
+limited permissions expressly stated in [LICENSE](LICENSE).
 
-The set is an AI-assisted digital artwork collection that has been curated,
-selected, iterated, resized, named, organized, and quality-checked as a
-coherent weather-icon library.
+## Licensing model
 
-The license in this repository applies only to rights the licensor is
-entitled to grant. No representation is made that copyright or other
-exclusive rights necessarily subsist in every individual generated element
-in every jurisdiction.
+The icon set is not licensed under Creative Commons and is not offered as an
+open-source asset collection.
+
+Personal, private, domestic, and hobby use is permitted under the Weather
+Icons Personal Use License. Commercial, professional, business,
+institutional, promotional, sponsored, monetized, and redistribution uses
+require prior written permission from Gianpaolo P. (pgpaolo).
+
+## Intellectual property
+
+The author reserves all copyrights and other intellectual-property rights
+recognized by applicable law in the icon artwork, selection, curation,
+editing, composition, naming, arrangement, documentation, and collection as
+a whole.
 
 ## No endorsement
 
-Attribution does not imply endorsement by pgpaolo of a downstream project,
-service, product, or modified version.
+Attribution does not imply endorsement by Gianpaolo P. or pgpaolo of a
+downstream project, service, product, or modified version.
 
 ## No warranty
 
