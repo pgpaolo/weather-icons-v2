@@ -3,7 +3,10 @@ name: Refresh icon metadata
 on:
   push:
     branches:
-      - feature/weather-icons-v3-redesign
+      - v2
+      - v2.5
+      - v3
+      - v3.5
     paths:
       - 'icons/**'
       - 'mappings/**'
@@ -19,10 +22,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Skip empty upload workspace
+        id: iconcheck
+        shell: bash
+        run: |
+          count=$(find icons -maxdepth 1 -type f -iname '*.png' | wc -l)
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" -eq 0 ]; then
+            echo "No PNG icons uploaded yet; nothing to refresh."
+          fi
+
       - name: Rebuild generated metadata
+        if: steps.iconcheck.outputs.count != '0'
         run: python tools/build_metadata.py
 
       - name: Refresh canonical source bundle
+        if: steps.iconcheck.outputs.count != '0'
         shell: bash
         run: |
           python - <<'PY'
@@ -34,15 +49,7 @@ jobs:
           bundle = Path('dist/source-icons.zip')
           icons = Path('icons')
           mapping = Path('mappings/aeris-icon-list.json')
-
-          prefix = 'NuoveICO'
-          if bundle.exists():
-              with zipfile.ZipFile(bundle, 'r') as src:
-                  png_members = [n for n in src.namelist() if n.lower().endswith('.png')]
-                  if png_members:
-                      parent = Path(png_members[0]).parent.as_posix()
-                      if parent and parent != '.':
-                          prefix = parent
+          prefix = 'weather-icons'
 
           bundle.parent.mkdir(parents=True, exist_ok=True)
           fd, tmp_name = tempfile.mkstemp(prefix='source-icons-', suffix='.zip', dir=bundle.parent)
@@ -63,6 +70,7 @@ jobs:
           PY
 
       - name: Commit refreshed generated assets
+        if: steps.iconcheck.outputs.count != '0'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
