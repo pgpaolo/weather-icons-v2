@@ -1,53 +1,50 @@
-# Publishing the canonical icon bundle
+# Publishing icon updates
 
-The repository is configured so that publishing or updating the complete icon set requires pushing **one binary file**:
+Weather Icons uses direct PNG publication on the version branches and a stable
+published branch on `main`.
 
-```text
-dist/source-icons.zip
-```
+## Version branches
 
-The GitHub Actions workflow `.github/workflows/sync-icons.yml` then performs the remaining work automatically.
+The permanent artwork branches are:
 
-## Git command line
+- `v2`
+- `v2.5`
+- `v3`
+- `v3.5`
 
-From a clone of the repository:
+To update a version:
 
-```bash
-mkdir -p dist
-cp /path/to/NuoveICO.zip dist/source-icons.zip
-git add dist/source-icons.zip
-git commit -m "feat: publish Weather Icons v2 source bundle"
-git push origin main
-```
+1. switch to the required version branch;
+2. upload or replace PNG files in `icons/`;
+3. commit the changes;
+4. wait for the **Refresh icon metadata** workflow.
 
-## Windows PowerShell
+The workflow regenerates:
 
-```powershell
-New-Item -ItemType Directory -Force .\dist | Out-Null
-Copy-Item "C:\Path\To\NuoveICO.zip" ".\dist\source-icons.zip" -Force
-git add .\dist\source-icons.zip
-git commit -m "feat: publish Weather Icons v2 source bundle"
-git push origin main
-```
+- `manifest.json`;
+- `docs/ICON_CATALOG.md`;
+- `docs/GALLERY.md`;
+- `dist/source-icons.zip`.
 
-## GitHub web interface
+## Stable main branch
 
-1. Open the `dist` directory in the repository.
-2. Choose **Add file → Upload files**.
-3. Upload the icon archive renamed exactly to `source-icons.zip`.
-4. Commit directly to `main` (or use a branch/PR if desired).
-5. Wait for the **Sync source bundle** workflow.
+`main` is the stable published branch.
 
-## What the workflow publishes
+A version should be promoted to `main` only after checking:
 
-The workflow validates the ZIP and then:
+- expected filenames;
+- expected dimensions;
+- PNG/RGBA transparency;
+- mapping targets;
+- generated metadata;
+- visual margins/cropping;
+- licensing/documentation consistency.
 
-- copies PNG files into `icons/`;
-- copies `aeris-icon-list.json` into `mappings/`;
-- validates every mapping target;
-- generates `manifest.json` with file hashes and dimensions;
-- generates `docs/ICON_CATALOG.md`;
-- generates `docs/GALLERY.md`;
-- commits the generated files back to `main`.
+## Canonical ZIP
 
-The ZIP may contain a top-level directory such as `NuoveICO/`; the synchronization script normalizes that automatically.
+`dist/source-icons.zip` is the canonical ZIP generated from the PNG files in
+that branch. It is a distribution artifact, not the preferred manual editing
+surface.
+
+The preferred source-of-truth workflow is to update `icons/` on the selected
+version branch and let automation rebuild the ZIP.
