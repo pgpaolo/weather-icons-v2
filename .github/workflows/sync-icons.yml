@@ -2,9 +2,12 @@ name: Sync source bundle
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
+      - feature/weather-icons-v3-redesign
     paths:
       - "dist/source-icons.zip"
+      - "dist/icons-v3.5.zip"
 
 permissions:
   contents: write
@@ -15,15 +18,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate canonical ZIP
+      - name: Select and validate source ZIP
         shell: bash
         run: |
-          test -s dist/source-icons.zip
-          unzip -t dist/source-icons.zip >/dev/null
+          if [ -s dist/icons-v3.5.zip ]; then
+            echo "ICON_SOURCE=dist/icons-v3.5.zip" >> "$GITHUB_ENV"
+            unzip -t dist/icons-v3.5.zip >/dev/null
+          else
+            echo "ICON_SOURCE=dist/source-icons.zip" >> "$GITHUB_ENV"
+            test -s dist/source-icons.zip
+            unzip -t dist/source-icons.zip >/dev/null
+          fi
 
       - name: Synchronize assets and metadata
         run: |
-          python tools/sync_bundle.py dist/source-icons.zip
+          python tools/sync_bundle.py "$ICON_SOURCE"
           python tools/build_metadata.py
 
       - name: Commit synchronized assets
@@ -36,5 +45,5 @@ jobs:
             echo "No generated changes to commit."
             exit 0
           fi
-          git commit -m "chore: sync icons from canonical source bundle"
-          git push
+          git commit -m "chore: sync v3.5 candidate icons and metadata"
+          git push origin HEAD

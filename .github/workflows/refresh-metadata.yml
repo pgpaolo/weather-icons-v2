@@ -3,7 +3,7 @@ name: Refresh icon metadata
 on:
   push:
     branches:
-      - develop
+      - feature/weather-icons-v3-redesign
     paths:
       - 'icons/**'
       - 'mappings/**'
@@ -73,4 +73,4 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh generated icon metadata and source bundle"
-          git push origin HEAD:develop
+          git push origin HEAD
