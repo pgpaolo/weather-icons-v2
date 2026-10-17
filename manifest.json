@@ -1,6 +1,6 @@
 {
   "project": "Weather Icons",
-  "version": "3.6.0",
+  "version": "3.7.0",
   "repository": "https://github.com/pgpaolo/weather-icons-v2",
   "license": "Weather Icons Personal Use License 1.0",
   "license_url": "https://github.com/pgpaolo/weather-icons-v2/blob/main/LICENSE",
@@ -11,1473 +11,1473 @@
   "icons": [
     {
       "file": "blizzard.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18528,
+      "width": 120,
+      "height": 120,
+      "bytes": 22004,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "79f6c2779ea137087eaf51ae01f36e57b88662213ac25ade73023bbe9b8e6495"
+      "sha256": "1eba9b36a7c0aad23622407a10d20f15023982a9cdc458af1ad01d8f608a6417"
     },
     {
       "file": "blizzardn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 19008,
+      "width": 120,
+      "height": 120,
+      "bytes": 22473,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "694aab22bc6fe05240aae816125d22148fd6935499bd871fd165d5054e005a7e"
+      "sha256": "21c06d5ff27b8b708e0c3f020b0f073af1dee78568986f28c0b358d668592706"
     },
     {
       "file": "blowingsnow.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 19105,
+      "width": 120,
+      "height": 120,
+      "bytes": 22566,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "8bcc66f30043bceee5d66cb0eab07e0bc656a80cb2f67a1f07a8e1098f2116fd"
+      "sha256": "b4df06a7f07cfbfd7b82b1ffa9a9ec4da57246beee6d6c589975f88c969ce845"
     },
     {
       "file": "blowingsnown.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20808,
+      "width": 120,
+      "height": 120,
+      "bytes": 24466,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ba93215ae800bf5d997fc5713dedb50126e291f4cd7f64f25172b2c23bf3e65b"
+      "sha256": "b341e78a896a73a8e5ac08ef814cad1d133350f0a2f2c2282c2262cfd9a854fb"
     },
     {
       "file": "buona.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14741,
+      "width": 120,
+      "height": 120,
+      "bytes": 17282,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "58632f2a9ece95777d097b4f9e58b0f69219f1ead05dbf51b0544c7866694248"
+      "sha256": "11065173811df6de335f7ce71bbe41c836aeaf4cbc14d1118f092e18903d3e00"
     },
     {
       "file": "cattiva.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15610,
+      "width": 120,
+      "height": 120,
+      "bytes": 18368,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "00e29ad0fdcc1143008b122a8be1403bbe34faf7534e9d42e3bbe7449e96a2d6"
+      "sha256": "35a490ffa5c0e4ef4dd8eb87d822a6117d02ce8bc133628e0d4ff5e5d1e5b00f"
     },
     {
       "file": "clear-day.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18860,
+      "width": 120,
+      "height": 120,
+      "bytes": 22173,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "592b65c7c4110db2aa1303ecb2f45cf8f04ac5592caf3552491c2d4e217b462c"
+      "sha256": "9935096f9f5fa9aecce0311174f89fee62ce3003cabbecbada0c56006e06939a"
     },
     {
       "file": "clear-night.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14552,
+      "width": 120,
+      "height": 120,
+      "bytes": 17221,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ebcff6ada44d14535d6da60d6bdd9772d2afefbcc6feb754f5e1793c84b37a6a"
+      "sha256": "bbe29c2e44fa0bf54f5cd6ad3f0b813e84af4faebc9b68ad1555de6db956ca45"
     },
     {
       "file": "clearn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17004,
+      "width": 120,
+      "height": 120,
+      "bytes": 20068,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "c6f9d1d0d21dd666f390caa04ed8c23971d39971f4588d4fb3e4d040fb914dfe"
+      "sha256": "2d28ac8b5cb300548b0d42b0d437c57549ef263af1e3d1ae3eb434433de063c5"
     },
     {
       "file": "cloudy.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12112,
+      "width": 120,
+      "height": 120,
+      "bytes": 14249,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "f513657939df3e665bf4d0b161060bb90ca48f8dbb94abd1dfec2db4a2d7fe43"
+      "sha256": "2a5ba9af97581cf6e6a433647cafea0cfde6a9b5063305ca0884810e80072635"
     },
     {
       "file": "cloudy2.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12486,
+      "width": 120,
+      "height": 120,
+      "bytes": 14857,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "540510de404a7c18a22f30f966297d3ac55d60cddfe93fe4e138ac41dad2f8a8"
+      "sha256": "d0460e0ef68a49efa7a517a5af3a444f863eb3681765ffd078ca79530877f8a1"
     },
     {
       "file": "cloudyn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14373,
+      "width": 120,
+      "height": 120,
+      "bytes": 17398,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "677893d075c90302580e801cc242d7b2e7d8f916e7523a19dd4358026c7da91b"
+      "sha256": "326f7ec5e3fb54a0e38cca8344be2551dfe5854ae54ddd66e60aed91f6a1b192"
     },
     {
       "file": "cloudyw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15716,
+      "width": 120,
+      "height": 120,
+      "bytes": 18920,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "86374ff19fbbe8c153c9e3c62e9bc400de3fa43d377e03f8fa2759aabc75bb6c"
+      "sha256": "11901cc05041df2a21e97000cfc82367d59d527723c3bcbe607cb5fdc69e5e5f"
     },
     {
       "file": "cloudywn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17181,
+      "width": 120,
+      "height": 120,
+      "bytes": 20760,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "3d9d73f4fec071a26e1000b683a380820612927f16066ec98bcce103248c2622"
+      "sha256": "ada62e627513da79361cd23cba33d43052cc4f2bfc6c5c30455af99cb216bc86"
     },
     {
       "file": "cold-day.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20425,
+      "width": 120,
+      "height": 120,
+      "bytes": 24279,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "af60d0fb9f70f97b751616aa85d29cc34b0fb6f355e15c28bfb30baac2d5ae3b"
+      "sha256": "b2af6fcf59e3b75ea91d6fccfbe2b1cb89799c4e4d72a1fc71304839f8a06282"
     },
     {
       "file": "discreta.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13763,
+      "width": 120,
+      "height": 120,
+      "bytes": 16069,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "628eae4134d3fda78efdb2df6e63465a92245adae7bfbdf74ae2362b03fc4179"
+      "sha256": "8f4e50ea0a5764531aa3e212319c326c68a0424525dafb122161eccfa7482979"
     },
     {
       "file": "drizzle.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13936,
+      "width": 120,
+      "height": 120,
+      "bytes": 16776,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "9701d6489dbfd930f5352278793f77e09009e48b6eecb91668601a88839e7447"
+      "sha256": "05ee56cdd69ae2b1f08be37289833724f33539e3b72cbe86ac94e59179163b21"
     },
     {
       "file": "drizzlef.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12964,
+      "width": 120,
+      "height": 120,
+      "bytes": 15654,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ed06b0e886b2c2d791074bd271e720379de067bf66fa35e09dd96f29442ee94a"
+      "sha256": "cfc69ba93d0df57ea67d654ca80e1a1c309804aaf692f42ccd8132ed70c4b4f4"
     },
     {
       "file": "drizzlen.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15346,
+      "width": 120,
+      "height": 120,
+      "bytes": 18253,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4a112a0feb21682380219f24f75fd90a63fcc62c72f2dc131a07e4a5a47ff2bd"
+      "sha256": "7a5ac1171e89b39125d1d6e7296cc1382c93de4c5cf06e61f9e10c10a4910c68"
     },
     {
       "file": "dust.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15839,
+      "width": 120,
+      "height": 120,
+      "bytes": 18928,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "e21f82e2fec6e7013a76d6b71eaa741c716ad32f404827f3e1b0ee54eda74cef"
+      "sha256": "bdff66ee0e8e9a025adef7b0f3bc67027ec4bc5e4e4c13cf82ce7cea62ddfe75"
     },
     {
       "file": "dustn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20162,
+      "width": 120,
+      "height": 120,
+      "bytes": 23923,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "d6c9b1e93c81298aefebfae58bfb818b90602c63fabc8f412fb49851463805d6"
+      "sha256": "fe09f0e080ad1d6a29470b3a9e85752e3525851faf11c614c599f37155f99b09"
     },
     {
       "file": "fair.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15964,
+      "width": 120,
+      "height": 120,
+      "bytes": 18677,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "a56d7daf060b2c2d215aebbd6e8c2cb5b57c098490a6575aeafc1ed115c36dbf"
+      "sha256": "5eccc9aea78727eb7899b44e4f4c1f74cc01ec7d52789e926db90132f61cc255"
     },
     {
       "file": "fairn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15091,
+      "width": 120,
+      "height": 120,
+      "bytes": 17700,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "7bbae89629b035199b01d0c7369908457f5e81b6eec4004b67671deff0f11b96"
+      "sha256": "2c3385b2dc660712ae21989a9ac5ac2f2b5951d3a2ab21a9d458086a664504ba"
     },
     {
       "file": "flurries.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12480,
+      "width": 120,
+      "height": 120,
+      "bytes": 15010,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "672b63efa3ce607465e7396fa0c490f8f58d20fe25e116133a21af3efa2870c0"
+      "sha256": "8fad775697a66e71a3a29f08e3a200e34ce7d51089e634727727d01ba5074498"
     },
     {
       "file": "flurriesn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17111,
+      "width": 120,
+      "height": 120,
+      "bytes": 20191,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ffed08af47757dee54f26701a51fa99760eafe33f2c473d014e8eff833954252"
+      "sha256": "14f42ce6d8af230e80439801c1b316bacbcfbee48d27cada0896aadf46aef4c8"
     },
     {
       "file": "flurriesw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15684,
+      "width": 120,
+      "height": 120,
+      "bytes": 18780,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "75968f9a4808a87e82828ce621e487dcb70efc2faee1b59715b8e57ed3ba9a8d"
+      "sha256": "a6515e783e5f8d8926049e70b3e7827f50ec3437b33595c92bd5075d369f8959"
     },
     {
       "file": "flurrieswn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18219,
+      "width": 120,
+      "height": 120,
+      "bytes": 21716,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "1d154addaf7036429e8032f2918afa16386429ceed6cdd3f85de5c54c2997d8f"
+      "sha256": "bf1796cb42e833b41d35ec79816f68cd1ef5bee14e8549a17844cc5e7d6770fd"
     },
     {
       "file": "fog.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 10182,
+      "width": 120,
+      "height": 120,
+      "bytes": 12224,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ae782b7ab7478d1eeef2094b4286d06778504ebed4eca79b41c48a83c2dc08ad"
+      "sha256": "1b9b03f623c8030b23cac7e192d17115d77fcb45242a69854614912cc1356bc3"
     },
     {
       "file": "fogn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13011,
+      "width": 120,
+      "height": 120,
+      "bytes": 15443,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "322acfda771e8e53f46f50f6366a9f22ecc09f12b4da499ea110fef55f301898"
+      "sha256": "f83be553e8c6ef1985c2305876005315fc3f43656d8876b887c5e9e4eeec3123"
     },
     {
       "file": "freezingrain.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16676,
+      "width": 120,
+      "height": 120,
+      "bytes": 19959,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "3805dbe3e20f745791855167b70f41b11e912ee9feff0ca3cf7214470047687b"
+      "sha256": "b32dde4efe04ada6636889e143978fdc17ae28850557b5be3bfdcfb3b0c8187a"
     },
     {
       "file": "freezingrainn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17432,
+      "width": 120,
+      "height": 120,
+      "bytes": 20537,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "82b53c697eb282a482b2bda1fcf8551c18ac0d02cc95e0ab0d32b7df5fc61ee5"
+      "sha256": "109ca191c86807c5f5ec14ced5877fafae3895bc66f54d84583572c7f5d022f6"
     },
     {
       "file": "hail.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17705,
+      "width": 120,
+      "height": 120,
+      "bytes": 21226,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "95e3fb5aee0762198b5b5e221d48a3d5a6ca8e22079c3047f2a161692aae2b6b"
+      "sha256": "1e3c36a6b122cab1898d20ce47cf12975459baa2eb1246ab36046e74741222ff"
     },
     {
       "file": "hazy.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17618,
+      "width": 120,
+      "height": 120,
+      "bytes": 20671,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ef1c18fb30d864f88db26aacd5aff718e13c749ba9889bff92eb9eab501af6c8"
+      "sha256": "4c2d1fd9354866a52d6c1c8f057385ce10e1a91dbcb27ead67e32f21f4713252"
     },
     {
       "file": "hazyn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16892,
+      "width": 120,
+      "height": 120,
+      "bytes": 19905,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "8e6760b163e0a7bfe030edb17f4a077a0ee9aa8330a3f9ba62c72c92fae87430"
+      "sha256": "eb5b6a00d1429f4141e5fd0bce5be0e55c8a188b3666ab0e5875f7ad9323db76"
     },
     {
       "file": "hot.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 21066,
+      "width": 120,
+      "height": 120,
+      "bytes": 24704,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "c827fe17bc6999c0cbabcac53ff08f4c0b667162cd87af2a2ced12d5d276bb89"
+      "sha256": "ef30914b6c252721d6bec11b883dffa0605198bf8e0ceb42dce650df2fcbcea2"
     },
     {
       "file": "icon.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16720,
+      "width": 120,
+      "height": 120,
+      "bytes": 20387,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "91a972e92d4cf65cab9a976ade85f63443af4464a994de5d78b5b798d3e36e71"
+      "sha256": "48a7aaf6018b4b8ff3db2778a46580365e5100ef866adfd3c014582434d21fa1"
     },
     {
       "file": "indefinited.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13349,
+      "width": 120,
+      "height": 120,
+      "bytes": 15706,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "02514292555ff204b81ca27a76a59d942c399399540985cada7f5082a1103c5b"
+      "sha256": "16bc93e5ea3622554f47dc5e69a96577513f9f9d38d91db7c506627c0b60c538"
     },
     {
       "file": "mcloudy.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13158,
+      "width": 120,
+      "height": 120,
+      "bytes": 15490,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "78843201a58497ffb494674ccefa067834e91c255890dcda646d8b3cbd387eaa"
+      "sha256": "10f720040682f4da6f5a026d393281f5493cc21e21490a810ee268f78c677402"
     },
     {
       "file": "mcloudyn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16690,
+      "width": 120,
+      "height": 120,
+      "bytes": 19666,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "fa7cc968eb44af389a4f36985dc96dd33e7e67ac1b0afdd644baccec400ff463"
+      "sha256": "a241a65d6d733925ac49daf8a63dbca63f2eac81be05f1ba606d98bc363b7776"
     },
     {
       "file": "mcloudyr.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12310,
+      "width": 120,
+      "height": 120,
+      "bytes": 14629,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "1774d3904003c371eeedc36e524beca0f1b666943186124e23df9319328acdaa"
+      "sha256": "16c7b74cf38addbc428af83ccb5204039e6bf7cc29327ba573c7cae1eed1031b"
     },
     {
       "file": "mcloudyrn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16026,
+      "width": 120,
+      "height": 120,
+      "bytes": 18922,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4eff4bb106c6c2c1e8b5619be4bd316732985f3920adfc6cdaeafc56b3492c36"
+      "sha256": "fa45bad3d28ad5ea2d18e76c908e2a9d7e68b7bb756e1580c5d2e9c9b5c049b2"
     },
     {
       "file": "mcloudyrw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15227,
+      "width": 120,
+      "height": 120,
+      "bytes": 17921,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4fccb5ff91666f85dac221ae1bccbb99974e8d26fac941a54e72cbe18d83758f"
+      "sha256": "e5d8a5323ebd34104f22d11b3b878fb0813a4c99883fa6ad8ebadea2041478ad"
     },
     {
       "file": "mcloudyrwn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17739,
+      "width": 120,
+      "height": 120,
+      "bytes": 20946,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "3dca765670fc4cac157bf4c19aba4812246722fd5ef39d4a7ed4d2066bb7cf06"
+      "sha256": "b6f81497e4e6125cf43cfe4b8bff8f58c09e6b53459fb19acafc8a5286555cfb"
     },
     {
       "file": "mcloudys.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13806,
+      "width": 120,
+      "height": 120,
+      "bytes": 16165,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "fe485b48cdd6fd5694c3feb9efbbfd63a5cc9c23de7c9349f283e7b59a8db15a"
+      "sha256": "2eb7aa238ae77c32fa2d6c275457e59f02cd176037f761191c92ffb1bc98bcc3"
     },
     {
       "file": "mcloudysf.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12568,
+      "width": 120,
+      "height": 120,
+      "bytes": 14878,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "d0bda6c71946c3c0a96b47f329bed35515d1bef375e48bb942e898d7516d033f"
+      "sha256": "35ea78440ff7b03b6e93089108e113ccf7953dd0ad5fb7410310e3b444082268"
     },
     {
       "file": "mcloudysfn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16932,
+      "width": 120,
+      "height": 120,
+      "bytes": 20200,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "a01e418e9a947d2ff4518b70ce2b5f75495eca5becfeac2c7bf1ce748d48147a"
+      "sha256": "3419ab692bff73194b1bcc05291c7789d1fbd0744bb5838f8c3f3558eb4b6eea"
     },
     {
       "file": "mcloudysfw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14465,
+      "width": 120,
+      "height": 120,
+      "bytes": 17132,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "46db55698832188ad59b85f345ecde0f5c92560d626086231137ec2b9cd79cc8"
+      "sha256": "30256eaaefe0bafd2a72afba8c5d0204c28bbf740f0f476005fdc9f8cb68a56a"
     },
     {
       "file": "mcloudysfwn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18769,
+      "width": 120,
+      "height": 120,
+      "bytes": 22467,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "094b116543a41187b8b138df66900fb147f214c963ef1ab9f52fca079f1d5374"
+      "sha256": "24532fd403a0dbe012d07b2c65f45f7839032744e7dffcf9c25abd7c3963bebf"
     },
     {
       "file": "mcloudysfwx.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14588,
+      "width": 120,
+      "height": 120,
+      "bytes": 17160,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "8f72e7ef76615586e02be3a2f7e41800c8c80d7fd198899b2450f461303613de"
+      "sha256": "8a67874778344754bbe687c106751ff394ea9f2a17f0b11d38abd49c4d262085"
     },
     {
       "file": "mcloudysn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17111,
+      "width": 120,
+      "height": 120,
+      "bytes": 20191,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ffed08af47757dee54f26701a51fa99760eafe33f2c473d014e8eff833954252"
+      "sha256": "14f42ce6d8af230e80439801c1b316bacbcfbee48d27cada0896aadf46aef4c8"
     },
     {
       "file": "mcloudysw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14465,
+      "width": 120,
+      "height": 120,
+      "bytes": 17132,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "46db55698832188ad59b85f345ecde0f5c92560d626086231137ec2b9cd79cc8"
+      "sha256": "30256eaaefe0bafd2a72afba8c5d0204c28bbf740f0f476005fdc9f8cb68a56a"
     },
     {
       "file": "mcloudyswn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18769,
+      "width": 120,
+      "height": 120,
+      "bytes": 22467,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "094b116543a41187b8b138df66900fb147f214c963ef1ab9f52fca079f1d5374"
+      "sha256": "24532fd403a0dbe012d07b2c65f45f7839032744e7dffcf9c25abd7c3963bebf"
     },
     {
       "file": "mcloudyt.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15142,
+      "width": 120,
+      "height": 120,
+      "bytes": 17828,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "0cebb164b05d5b4fbfda4fe4b73d54ee8f06f3da919cce37a3c0913a80ba6543"
+      "sha256": "247743ad569528779d680dd7b2448abdc1d2cbf09a4bf2e6e2d36913f64f7f5e"
     },
     {
       "file": "mcloudytn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 21062,
+      "width": 120,
+      "height": 120,
+      "bytes": 25226,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "1e171f969dd11aed8024e7b2014aac5c068e16e0d9c599ba019dffb3702cff34"
+      "sha256": "3b27c68996936299c56bb5989429e855b08c1c954b62b438b936c72ea81db281"
     },
     {
       "file": "mcloudytw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15144,
+      "width": 120,
+      "height": 120,
+      "bytes": 17860,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "baead0ea84251b25a5d66bcf901562db320204f997958d9bf7459b1c77fe1add"
+      "sha256": "6daf3e6809d2485ac83665c1bb2abb948680578ed0be0d60ba019d0102fd246d"
     },
     {
       "file": "mcloudytwn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 21800,
+      "width": 120,
+      "height": 120,
+      "bytes": 26146,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "a9cec197d3de23015a440b9e271cc407d89cbeac67bbc6170c4402e1ac0b787e"
+      "sha256": "7a19244acbe95a18838a3f7c141ae6865ddfe60b631f52752c99b7feb9ae5872"
     },
     {
       "file": "mcloudyw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14575,
+      "width": 120,
+      "height": 120,
+      "bytes": 17224,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "0632d48aa0ae989c9f68344014bb3638f3a0b6d6c873f0c9abca41020ec74124"
+      "sha256": "0027f82d55269554ca7a30d4e0d99f3f0b3d3db49ea88932ad7ff5476f1c9446"
     },
     {
       "file": "mcloudywn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16887,
+      "width": 120,
+      "height": 120,
+      "bytes": 20131,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "9e05cb89869ae54bf263c95199f0ae40adbc16a68e0bb4452431f1dda41b247e"
+      "sha256": "2d17935ee6f66423fc9cbdc9829b6624329f2ff61f88967eb2f60915916e404e"
     },
     {
       "file": "moderata.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12060,
+      "width": 120,
+      "height": 120,
+      "bytes": 14209,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "55f03e59a401059b81d9941759a6715dbc24a87cdd59db4537b4429d34c2a929"
+      "sha256": "726dffab6934d378965e87b3519daede929af641061d8ad158efcbe3eff45693"
     },
     {
       "file": "molto_cattiva.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16264,
+      "width": 120,
+      "height": 120,
+      "bytes": 19028,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "0bfcee14d1c899a9ba76b1bbe0b87148156c424824b74fbbc7625ac03bcdd62f"
+      "sha256": "c68fae0e168ae3115cf5d20721bf186da564009040a9b9bbb9aabf76ba5f1277"
     },
     {
       "file": "mostly-clear-day.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18813,
+      "width": 120,
+      "height": 120,
+      "bytes": 22044,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "d1e857b964ebbe9036c20cc4487b7c242e6565b969ca28040a0a00079b8ad029"
+      "sha256": "d50f5c8033503cc4ff010243953a5a8a6a63c9a13d9833381ff1d62b5de02851"
     },
     {
       "file": "mostly-clear-night.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14076,
+      "width": 120,
+      "height": 120,
+      "bytes": 16394,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "97df1b0dd20d8123aa40af7b64b0a51b29cb36b4372d7b2fc38e4b4fb736b11b"
+      "sha256": "546a7fc30eeb01fa8d9cb10f26ceed29dcc2a78040c7543735265b7896fdbf61"
     },
     {
       "file": "mostly-cloudy-day.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13158,
+      "width": 120,
+      "height": 120,
+      "bytes": 15490,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "78843201a58497ffb494674ccefa067834e91c255890dcda646d8b3cbd387eaa"
+      "sha256": "10f720040682f4da6f5a026d393281f5493cc21e21490a810ee268f78c677402"
     },
     {
       "file": "mostly-cloudy-night.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16690,
+      "width": 120,
+      "height": 120,
+      "bytes": 19666,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "fa7cc968eb44af389a4f36985dc96dd33e7e67ac1b0afdd644baccec400ff463"
+      "sha256": "a241a65d6d733925ac49daf8a63dbca63f2eac81be05f1ba606d98bc363b7776"
     },
     {
       "file": "nero.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13560,
+      "width": 120,
+      "height": 120,
+      "bytes": 15776,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "af291fe29123913355d42c125a2c521b8f4c5f80642115175a94c2ccbdbd4f6d"
+      "sha256": "cae2dddef222c9de3ad602a1d7e5647b316592c0ddc4f5e453657e88a44153a6"
     },
     {
       "file": "partly-cloudy-day.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18813,
+      "width": 120,
+      "height": 120,
+      "bytes": 22044,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "d1e857b964ebbe9036c20cc4487b7c242e6565b969ca28040a0a00079b8ad029"
+      "sha256": "d50f5c8033503cc4ff010243953a5a8a6a63c9a13d9833381ff1d62b5de02851"
     },
     {
       "file": "partly-cloudy-night.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14076,
+      "width": 120,
+      "height": 120,
+      "bytes": 16394,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "97df1b0dd20d8123aa40af7b64b0a51b29cb36b4372d7b2fc38e4b4fb736b11b"
+      "sha256": "546a7fc30eeb01fa8d9cb10f26ceed29dcc2a78040c7543735265b7896fdbf61"
     },
     {
       "file": "pcloudy.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18813,
+      "width": 120,
+      "height": 120,
+      "bytes": 22044,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "d1e857b964ebbe9036c20cc4487b7c242e6565b969ca28040a0a00079b8ad029"
+      "sha256": "d50f5c8033503cc4ff010243953a5a8a6a63c9a13d9833381ff1d62b5de02851"
     },
     {
       "file": "pcloudyn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14076,
+      "width": 120,
+      "height": 120,
+      "bytes": 16394,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "97df1b0dd20d8123aa40af7b64b0a51b29cb36b4372d7b2fc38e4b4fb736b11b"
+      "sha256": "546a7fc30eeb01fa8d9cb10f26ceed29dcc2a78040c7543735265b7896fdbf61"
     },
     {
       "file": "pcloudyr.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12310,
+      "width": 120,
+      "height": 120,
+      "bytes": 14629,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "1774d3904003c371eeedc36e524beca0f1b666943186124e23df9319328acdaa"
+      "sha256": "16c7b74cf38addbc428af83ccb5204039e6bf7cc29327ba573c7cae1eed1031b"
     },
     {
       "file": "pcloudyrn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16026,
+      "width": 120,
+      "height": 120,
+      "bytes": 18922,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4eff4bb106c6c2c1e8b5619be4bd316732985f3920adfc6cdaeafc56b3492c36"
+      "sha256": "fa45bad3d28ad5ea2d18e76c908e2a9d7e68b7bb756e1580c5d2e9c9b5c049b2"
     },
     {
       "file": "pcloudyrw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15227,
+      "width": 120,
+      "height": 120,
+      "bytes": 17921,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4fccb5ff91666f85dac221ae1bccbb99974e8d26fac941a54e72cbe18d83758f"
+      "sha256": "e5d8a5323ebd34104f22d11b3b878fb0813a4c99883fa6ad8ebadea2041478ad"
     },
     {
       "file": "pcloudyrwn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17739,
+      "width": 120,
+      "height": 120,
+      "bytes": 20946,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "3dca765670fc4cac157bf4c19aba4812246722fd5ef39d4a7ed4d2066bb7cf06"
+      "sha256": "b6f81497e4e6125cf43cfe4b8bff8f58c09e6b53459fb19acafc8a5286555cfb"
     },
     {
       "file": "pcloudys.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13806,
+      "width": 120,
+      "height": 120,
+      "bytes": 16165,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "fe485b48cdd6fd5694c3feb9efbbfd63a5cc9c23de7c9349f283e7b59a8db15a"
+      "sha256": "2eb7aa238ae77c32fa2d6c275457e59f02cd176037f761191c92ffb1bc98bcc3"
     },
     {
       "file": "pcloudysf.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12568,
+      "width": 120,
+      "height": 120,
+      "bytes": 14878,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "d0bda6c71946c3c0a96b47f329bed35515d1bef375e48bb942e898d7516d033f"
+      "sha256": "35ea78440ff7b03b6e93089108e113ccf7953dd0ad5fb7410310e3b444082268"
     },
     {
       "file": "pcloudysfn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16932,
+      "width": 120,
+      "height": 120,
+      "bytes": 20200,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "a01e418e9a947d2ff4518b70ce2b5f75495eca5becfeac2c7bf1ce748d48147a"
+      "sha256": "3419ab692bff73194b1bcc05291c7789d1fbd0744bb5838f8c3f3558eb4b6eea"
     },
     {
       "file": "pcloudysfw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14465,
+      "width": 120,
+      "height": 120,
+      "bytes": 17132,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "46db55698832188ad59b85f345ecde0f5c92560d626086231137ec2b9cd79cc8"
+      "sha256": "30256eaaefe0bafd2a72afba8c5d0204c28bbf740f0f476005fdc9f8cb68a56a"
     },
     {
       "file": "pcloudysfwn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18769,
+      "width": 120,
+      "height": 120,
+      "bytes": 22467,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "094b116543a41187b8b138df66900fb147f214c963ef1ab9f52fca079f1d5374"
+      "sha256": "24532fd403a0dbe012d07b2c65f45f7839032744e7dffcf9c25abd7c3963bebf"
     },
     {
       "file": "pcloudysn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17111,
+      "width": 120,
+      "height": 120,
+      "bytes": 20191,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ffed08af47757dee54f26701a51fa99760eafe33f2c473d014e8eff833954252"
+      "sha256": "14f42ce6d8af230e80439801c1b316bacbcfbee48d27cada0896aadf46aef4c8"
     },
     {
       "file": "pcloudysw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17128,
+      "width": 120,
+      "height": 120,
+      "bytes": 20219,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "9a3cd8d53d16734fa156662103f751fd2de6fc8c0fcb896e80238fb64d43c4a1"
+      "sha256": "7f3a6229c90f2a949ee330d99cef9fffe13dc82e36884377ceea8e04a0cc97a5"
     },
     {
       "file": "pcloudyswn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20611,
+      "width": 120,
+      "height": 120,
+      "bytes": 24497,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "e3f7f76183a4920808571a6aa75d1b0e338991bfbf355fe81b9bb711b70b1029"
+      "sha256": "f72a465ed2ab74acf2b526f952dab3e2498e3819f7fe7c45bffac29d7beec45d"
     },
     {
       "file": "pcloudyt.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15142,
+      "width": 120,
+      "height": 120,
+      "bytes": 17828,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "0cebb164b05d5b4fbfda4fe4b73d54ee8f06f3da919cce37a3c0913a80ba6543"
+      "sha256": "247743ad569528779d680dd7b2448abdc1d2cbf09a4bf2e6e2d36913f64f7f5e"
     },
     {
       "file": "pcloudytn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 21062,
+      "width": 120,
+      "height": 120,
+      "bytes": 25226,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "1e171f969dd11aed8024e7b2014aac5c068e16e0d9c599ba019dffb3702cff34"
+      "sha256": "3b27c68996936299c56bb5989429e855b08c1c954b62b438b936c72ea81db281"
     },
     {
       "file": "pcloudytw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15144,
+      "width": 120,
+      "height": 120,
+      "bytes": 17860,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "baead0ea84251b25a5d66bcf901562db320204f997958d9bf7459b1c77fe1add"
+      "sha256": "6daf3e6809d2485ac83665c1bb2abb948680578ed0be0d60ba019d0102fd246d"
     },
     {
       "file": "pcloudytwn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 21800,
+      "width": 120,
+      "height": 120,
+      "bytes": 26146,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "a9cec197d3de23015a440b9e271cc407d89cbeac67bbc6170c4402e1ac0b787e"
+      "sha256": "7a19244acbe95a18838a3f7c141ae6865ddfe60b631f52752c99b7feb9ae5872"
     },
     {
       "file": "pcloudyw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14575,
+      "width": 120,
+      "height": 120,
+      "bytes": 17224,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "0632d48aa0ae989c9f68344014bb3638f3a0b6d6c873f0c9abca41020ec74124"
+      "sha256": "0027f82d55269554ca7a30d4e0d99f3f0b3d3db49ea88932ad7ff5476f1c9446"
     },
     {
       "file": "pcloudywn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16887,
+      "width": 120,
+      "height": 120,
+      "bytes": 20131,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "9e05cb89869ae54bf263c95199f0ae40adbc16a68e0bb4452431f1dda41b247e"
+      "sha256": "2d17935ee6f66423fc9cbdc9829b6624329f2ff61f88967eb2f60915916e404e"
     },
     {
       "file": "pessima.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14372,
+      "width": 120,
+      "height": 120,
+      "bytes": 16781,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "fbee723018328c0e87d5a413bdcd11c3324481fedf47d68c6bfe74874ce272b8"
+      "sha256": "54e7485f8e429dd4d9e356dc4e539e3599a19582360a0d9db4ef37713f93be12"
     },
     {
       "file": "rain.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14936,
+      "width": 120,
+      "height": 120,
+      "bytes": 17697,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "7b7e4ae318f12dc520f21bf2fe8f595369dc6648e9722c458544d7841bae2605"
+      "sha256": "4eb0e8a63c46e01ea8c9aa85b6d7d33d42147f031e984489b83d71731d96d3b0"
     },
     {
       "file": "rain_scale.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 10357,
+      "width": 120,
+      "height": 120,
+      "bytes": 12404,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "8db16a13ad199f6b523a8e809b84283b078d5b365aa37d62055ddb57b7cb372d"
+      "sha256": "199d612c76b39cbfb18619b540669e223b7030808e7e15215b3866065015075e"
     },
     {
       "file": "rain_scale2.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 11738,
+      "width": 120,
+      "height": 120,
+      "bytes": 13887,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "a7fbcb68e2df0b6e7570634960cdc2fb3126effd8a3f9a42af456fc6d9bdd567"
+      "sha256": "b67d525a098de6f70f6e1b5d5ae03d99ca5e2b5b9dec52a68e176606c62725c3"
     },
     {
       "file": "rain_scale_sun.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14862,
+      "width": 120,
+      "height": 120,
+      "bytes": 17684,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "df5dc383bd5120d033edaee9d0ff871bbd7399d0a1c483f4edeeb2b11f72c9d8"
+      "sha256": "655cf56af56b15064c8b356d9fc97d6f60e96f1682c1aa97302074bcb3f46072"
     },
     {
       "file": "rainandsnow.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17148,
+      "width": 120,
+      "height": 120,
+      "bytes": 20091,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "e87dadaac4cc22aaa56244dd03852f58f95375cda56696c089a63ee4eef7936d"
+      "sha256": "84d6253a57e01dc708d6aeca6008f4181ebad4762e37708b7b712556029bb4c3"
     },
     {
       "file": "rainandsnown.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 19798,
+      "width": 120,
+      "height": 120,
+      "bytes": 23285,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "3fa8ac28bb1905fd435d31665cfe7f138c974909e2428d6cd5cff5acb0574db0"
+      "sha256": "4123d0ecfb9abcc48a2a553cda1023f5d6ef906e897c915c4bd56c8d4c47dac4"
     },
     {
       "file": "rainn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16026,
+      "width": 120,
+      "height": 120,
+      "bytes": 18922,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4eff4bb106c6c2c1e8b5619be4bd316732985f3920adfc6cdaeafc56b3492c36"
+      "sha256": "fa45bad3d28ad5ea2d18e76c908e2a9d7e68b7bb756e1580c5d2e9c9b5c049b2"
     },
     {
       "file": "raintosnow.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16943,
+      "width": 120,
+      "height": 120,
+      "bytes": 20105,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "b7cdc9724ae002ab618397b357b3144932079d363ce260cbc120b583d3b6779e"
+      "sha256": "48c374985de916acf6025f1f5b30dc6dcc831bfba65f9ec594739145b094a555"
     },
     {
       "file": "raintosnown.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18796,
+      "width": 120,
+      "height": 120,
+      "bytes": 22242,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "d9ab1f9031cc99ad0a7d9a5d3153925e50ec9df71bb5fe00d3b304a6b83751e6"
+      "sha256": "9d0b6a955b05fd97a16194e45a1ec1a3951485f7ea1dada8025b3265a3d4712f"
     },
     {
       "file": "rainw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15227,
+      "width": 120,
+      "height": 120,
+      "bytes": 17921,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4fccb5ff91666f85dac221ae1bccbb99974e8d26fac941a54e72cbe18d83758f"
+      "sha256": "e5d8a5323ebd34104f22d11b3b878fb0813a4c99883fa6ad8ebadea2041478ad"
     },
     {
       "file": "showers.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17526,
+      "width": 120,
+      "height": 120,
+      "bytes": 20791,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "fc0934a5b74f5840fe1a5a6d17c77d63e60ef1bda0f40ff5086b77b8413169bd"
+      "sha256": "21d6cf2c0b0ce1eff461193c7aee0befce8ea7cbfe78c2db9b49eb9780a94ea2"
     },
     {
       "file": "showersn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17137,
+      "width": 120,
+      "height": 120,
+      "bytes": 20401,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "b7ae2fa568b97b944e4fa86b869a7d48c827702b4573d87db1c4e623e69cabb2"
+      "sha256": "48a9f9cd4d81b4cbc9054ee677e1ceeb6af3a10647df8d8957fb5c7015717d1c"
     },
     {
       "file": "showersw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15007,
+      "width": 120,
+      "height": 120,
+      "bytes": 17723,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "21d04413dd5fe1c5ba0edf8fab1b274ba5ac9e642898850b722b054004c209a8"
+      "sha256": "8bf302cfa76fab7ea2017bd458522d4524572ca93dcc3a16724a67cb66c8acd7"
     },
     {
       "file": "showerswn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 19697,
+      "width": 120,
+      "height": 120,
+      "bytes": 23756,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "7def6bdf01139ab34d2baeb618b69b840a5d87632cbf747fe62aed19ba36da27"
+      "sha256": "2c0f5c4a9ad47dbace9774301a98974061ace1b2cfa861d160125ac802788a21"
     },
     {
       "file": "sleet.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18423,
+      "width": 120,
+      "height": 120,
+      "bytes": 22580,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4117af8dd94f814429c9e7b0de329dcac527528cf8632cd024d4442f649dbd3e"
+      "sha256": "5a395fb3d9ca8c540706b726beea77bdfb30fd455cdedd1f10b579b461d2d9c3"
     },
     {
       "file": "sleetn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17510,
+      "width": 120,
+      "height": 120,
+      "bytes": 21412,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "3a376b5c33640474cf31b6ec1842e54a6d81bd877d6d2a497e3bd5dd642d90d7"
+      "sha256": "0fa56f871d5ee04984831f5137d011154721c25cf1694c8be617b93a6463c2ae"
     },
     {
       "file": "sleetsnow.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20270,
+      "width": 120,
+      "height": 120,
+      "bytes": 24901,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "41b1a6f728b69df34d70930a42182c650ebc2e3a28363ba4058609c2d548486a"
+      "sha256": "9078f8347e1435b28b1f635058bcbcd920663f3442038f0ef1e022dc18854977"
     },
     {
       "file": "sleetsnown.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20107,
+      "width": 120,
+      "height": 120,
+      "bytes": 24560,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "67586c15c255944c3b2bc438f2522644e8db2147574d2891b1bb64fee1bb04db"
+      "sha256": "9f580c552b9bdad14e002e43ec7c21b38c52bd46ea826f005fb6dd5175649262"
     },
     {
       "file": "smoke.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12346,
+      "width": 120,
+      "height": 120,
+      "bytes": 14650,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "6a99fc2c5149fe541edf1f48ef93ae25be81aa7671a4606190230cf99f8a8634"
+      "sha256": "625470af1b2c6c48a4a4cc79cc5663189d1383eeb2fdca7f8b4ecfa326e5ae40"
     },
     {
       "file": "smoken.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12471,
+      "width": 120,
+      "height": 120,
+      "bytes": 14975,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "59b484d226e59f2cb33c8e20662c1bda7edcfd63ed44d08617d916be5a3e5997"
+      "sha256": "1c316f626ca1dd6038ae221736eb9e4b7a117ef44a2fb4c1309efca26b85b926"
     },
     {
       "file": "snow.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17302,
+      "width": 120,
+      "height": 120,
+      "bytes": 21214,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "9caea01437877d57a26bf27f33e319cdb8d103048fffb4d740caf0de03b3a8d2"
+      "sha256": "1220108c4f8c201e50db91cc49c16d6ad2773d1d344f011bd4a16c1755d90cc8"
     },
     {
       "file": "snowflake-icon-15px.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15118,
+      "width": 120,
+      "height": 120,
+      "bytes": 18329,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "e86288799efdd94eea7ce7245e895fbdb8ed2fe060dc1a748c5579e434dc6909"
+      "sha256": "1d0d4be0a57c347a213a320c49ce23bf732ea05eaeb7b742b1cda164aaa6f079"
     },
     {
       "file": "snown.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17323,
+      "width": 120,
+      "height": 120,
+      "bytes": 20449,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "a07aded2d5507f76abec0479c6e75de5ed2d0881455f135708b404139dead0a6"
+      "sha256": "decfe88ab54ff8360f030a4629e0ebfc430b9e3b9393f2781129df7536e8c5e7"
     },
     {
       "file": "snowshowers.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14391,
+      "width": 120,
+      "height": 120,
+      "bytes": 17232,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "2330ff465ba8ffd0b659ab9301161e922a480ab0ef736db1f6eb911141bb0948"
+      "sha256": "d1746511358df1858ca27657541b24ba74594b5eefb270fc44ea62b85145bf86"
     },
     {
       "file": "snowshowersn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 19257,
+      "width": 120,
+      "height": 120,
+      "bytes": 22730,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "b641abbdc6aafc775d1be029e95733e64f8ae656d4c6fb159e91bea4d77a83e0"
+      "sha256": "1bbe7318a3710da80274366adfa0d004caf6a5821a4ab3f5a975ae54b4db2a0a"
     },
     {
       "file": "snowshowersw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16263,
+      "width": 120,
+      "height": 120,
+      "bytes": 19369,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "88d7179404cfac59564f8fa8d2364002d0a8a023042660c5e612ccaf94707cea"
+      "sha256": "93bc08983f41c6de8600188209c95a96da6b9d6cd6a5a79623694f63a32c517b"
     },
     {
       "file": "snowshowerswn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20018,
+      "width": 120,
+      "height": 120,
+      "bytes": 23576,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "4d071b486df28772c6ae5a75d810bd2ac851dd2a7a6d08abb2c6b55e5ac0e64d"
+      "sha256": "68ba8de101614e2b30406e1ae3d3836e1f8d5ebeef741d2173b7122dbfe44ee3"
     },
     {
       "file": "snowtorain.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17627,
+      "width": 120,
+      "height": 120,
+      "bytes": 20922,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "a8661740eb97899e42e21354932eaf68b68f23c0619813f4280621736417ecfb"
+      "sha256": "f9a3cbdc83766e8ad2952d4ef9d7c22e76f7ea42ddc07d9ac3bc2c5f37d8a828"
     },
     {
       "file": "snowtorainn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 19467,
+      "width": 120,
+      "height": 120,
+      "bytes": 22847,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "c5475b3bdfee805acaa7070485cfc0331d2e68f2f0175a7c789730cd492f5dd4"
+      "sha256": "fc970ee389f27b8fda607a7cbc4bf47ccaa14f19dd055570505b9e7f479cb474"
     },
     {
       "file": "snoww.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17876,
+      "width": 120,
+      "height": 120,
+      "bytes": 21213,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "5d0779239e421bf400016e2a491ab4a976b630f3e4302e0a1d52891d670b2662"
+      "sha256": "42a77cf819622b9a811f196e3f563fd6a81d22ee94776c54a64c243443895081"
     },
     {
       "file": "station.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13834,
+      "width": 120,
+      "height": 120,
+      "bytes": 17443,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "9ce5695e9d0bbfe053f5914a3413cbf233ebec8360c3b3361d109cbd2c46e6a2"
+      "sha256": "892493d3879ad04ce5dbb443d37fdf4911f67f1742106596bb351a32c6b3719b"
     },
     {
       "file": "station144.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13834,
+      "width": 120,
+      "height": 120,
+      "bytes": 17443,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "9ce5695e9d0bbfe053f5914a3413cbf233ebec8360c3b3361d109cbd2c46e6a2"
+      "sha256": "892493d3879ad04ce5dbb443d37fdf4911f67f1742106596bb351a32c6b3719b"
     },
     {
       "file": "station168.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13704,
+      "width": 120,
+      "height": 120,
+      "bytes": 17326,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "2538c3040a6d2a20d26951a1333503e66d1d913a5032c5a031ff59cdd056f848"
+      "sha256": "7da0b64a1f76cee0869c000a51de362393667cc659872cd68a9ec23c3123dca4"
     },
     {
       "file": "station192.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13348,
+      "width": 120,
+      "height": 120,
+      "bytes": 17078,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "da3d16a4e3372cc22ea72e2c57b18a3463066de09ffe24eccd19ce70399cb282"
+      "sha256": "c9539cd2ac0b01ef1c7835435c36ed25f649f4a27e9fb75a5a099f524475369c"
     },
     {
       "file": "station48.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13332,
+      "width": 120,
+      "height": 120,
+      "bytes": 15927,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ac39fb56b9dd5e06a5ec09f9ab1010366fd9091c1c1e126c01180d3c79c3a11c"
+      "sha256": "1677f06d4b43eac8822da265c65923a64d83daf14c4e366e52b55f82971fa8b8"
     },
     {
       "file": "station72.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12627,
+      "width": 120,
+      "height": 120,
+      "bytes": 15702,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "8dd72912fc711761f00d04c395a4d1ae476369441b1cad0748e006add6fdaf05"
+      "sha256": "f1895cce819cbf34bc6efd4a777404eb67591832dfa71c6e3828a461751831bf"
     },
     {
       "file": "station96.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 12392,
+      "width": 120,
+      "height": 120,
+      "bytes": 15398,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "df9cec451240a30167ee4049db181e77b6baf82cce7279c0ebbe078e81c3e48e"
+      "sha256": "d4baab270be0180a69e72239e4fbf4ad064224e6132767d0f6bc80014166bf95"
     },
     {
       "file": "sunny.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18860,
+      "width": 120,
+      "height": 120,
+      "bytes": 22173,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "592b65c7c4110db2aa1303ecb2f45cf8f04ac5592caf3552491c2d4e217b462c"
+      "sha256": "9935096f9f5fa9aecce0311174f89fee62ce3003cabbecbada0c56006e06939a"
     },
     {
       "file": "sunnyn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14552,
+      "width": 120,
+      "height": 120,
+      "bytes": 17221,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "ebcff6ada44d14535d6da60d6bdd9772d2afefbcc6feb754f5e1793c84b37a6a"
+      "sha256": "bbe29c2e44fa0bf54f5cd6ad3f0b813e84af4faebc9b68ad1555de6db956ca45"
     },
     {
       "file": "sunnyw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20839,
+      "width": 120,
+      "height": 120,
+      "bytes": 24631,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "5db4587bf6dec31692a4c1a45ab27b113b04739b54ed63a273fe9b0ac2bba584"
+      "sha256": "e878a353c4dcf035a310134b6730ca588ba34d760b89d6bf94ef898707b7dc7f"
     },
     {
       "file": "sunnywn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14077,
+      "width": 120,
+      "height": 120,
+      "bytes": 16722,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "75b3b9b3941f69745a098f256505ddbe64c8c01a7de33d538e47b7ad1c6ed354"
+      "sha256": "a908d7123f979eef1b3e30acb1e506762633bb953e1ad58634e032f4ace3cba9"
     },
     {
       "file": "sunrise.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 8168,
+      "width": 120,
+      "height": 120,
+      "bytes": 9634,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "261335450bd8e5a68abbf0fcccc28beb551da960aaaa7a44789a204cf7248b2e"
+      "sha256": "535d23bc19edb64705040232325387b5c220d1e77fe6a0511ed4c5ebab52098e"
     },
     {
       "file": "sunset.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 9176,
+      "width": 120,
+      "height": 120,
+      "bytes": 10935,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "07779e40b001ce3c5194c696f3bab40a4c15ade7687de0be43cfae68dc0b5d83"
+      "sha256": "b3b4bbbe0801474b9380f59e9f8ca63b7670f5e45d8823f4e2932e745a94c950"
     },
     {
       "file": "Test.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18557,
+      "width": 120,
+      "height": 120,
+      "bytes": 22216,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "a3001b12f18867024905524a393cf772140f3006c596ed9a33b1742a2a6e1126"
+      "sha256": "eae32c766060c4661e8cd4e775c67d44f08f3832d64aa99bc01019b52534ac83"
     },
     {
       "file": "thunderstorm.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17579,
+      "width": 120,
+      "height": 120,
+      "bytes": 20920,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "b2d8e16ea659a16715347a3811fb3ea50e41b7836caefb9866d52bb43b6aa769"
+      "sha256": "5e7e53f64823a2d187ed1726a01e940da95e78543d888280018c9e589652d69e"
     },
     {
       "file": "tornado.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 15068,
+      "width": 120,
+      "height": 120,
+      "bytes": 17872,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "86c6b4eee9baf908ef208c7c385da9ad757167319d34b15faae100c08d72aa55"
+      "sha256": "890773394cb598b4c1a7d250ec87623f49da1ebde230987c40fcb31e376b44e3"
     },
     {
       "file": "tstorm.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 16390,
+      "width": 120,
+      "height": 120,
+      "bytes": 19378,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "8efb20cd5fa4133da10c8433a946eb4c518689cc7ff74ba486c402e60bc7a703"
+      "sha256": "e30b8f3468085e6b3e28a772b54a16833b9c7a0a211a8c5d29898d3a21786d17"
     },
     {
       "file": "tstormn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20039,
+      "width": 120,
+      "height": 120,
+      "bytes": 23568,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "7d12b17c835982f64d55f9492362f5470779973a02cbf207aa4bb26fdfa8a899"
+      "sha256": "6efc1d80d716b3fcb8b475008508f32f3d65f6361234af7abebbac9ab5a95e7b"
     },
     {
       "file": "tstorms.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 17579,
+      "width": 120,
+      "height": 120,
+      "bytes": 20920,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "b2d8e16ea659a16715347a3811fb3ea50e41b7836caefb9866d52bb43b6aa769"
+      "sha256": "5e7e53f64823a2d187ed1726a01e940da95e78543d888280018c9e589652d69e"
     },
     {
       "file": "tstormsn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 20828,
+      "width": 120,
+      "height": 120,
+      "bytes": 24886,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "e8048eb226aae43ed093d900067483fe172d86d5bab9514856398bd82e36c403"
+      "sha256": "4bc8bc6a15da475b11590950a3eeb3a2d1a2c91335642da25da287cb3282afd2"
     },
     {
       "file": "tstormsw.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13761,
+      "width": 120,
+      "height": 120,
+      "bytes": 16168,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "0d7c0d389db2c560491adcb1a9da7cc3296a8682fdf4419b22dfab0416946e7e"
+      "sha256": "84a66d21aaad53d92c296262e81b114bf76aae7856ebb3f497a58540b14a0395"
     },
     {
       "file": "tstormswn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 21630,
+      "width": 120,
+      "height": 120,
+      "bytes": 26193,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "3afaac88f17c8e1ef809308f26b1e0774e3fb4b94b4c2e3ffe91c3ca17467d45"
+      "sha256": "c7ed3b84b554075a464d6c78c394de4a628837c7f8b792f33dba7cbcefd61b32"
     },
     {
       "file": "undefined.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18257,
+      "width": 120,
+      "height": 120,
+      "bytes": 21927,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "8bbeebf43e02ff6af8acfd0d79fce6c324cfa4a6938498c9c3918df3bb87fc35"
+      "sha256": "66781958087b83a6469b229b7c8ef1c76db7349f7bf9583003830bf8d57ceb0d"
     },
     {
       "file": "unknow.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14058,
+      "width": 120,
+      "height": 120,
+      "bytes": 17649,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "e12fb949177b218459689aec5197d4d9eaf611b5d982468ea2a0f32f7d737130"
+      "sha256": "c0a994fcb15167fa020ed25d63367c002242106b6fb382dedc01d1366511b45b"
     },
     {
       "file": "unknown.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 13448,
+      "width": 120,
+      "height": 120,
+      "bytes": 16229,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "6374a5a7fdcb77be93cdf350141bf2ee59ad6cf6fc2e04e0c16b3f722aca8c18"
+      "sha256": "3c21547fb5d4629d772f54c3ed02cfd1242457ffc014a7366cbdc26f89d266ff"
     },
     {
       "file": "wind.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 10031,
+      "width": 120,
+      "height": 120,
+      "bytes": 12396,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "c13d1dcbd4b599ec56c84d6791edc98e87c05c13a833e7cc4998e1ecf6c2a044"
+      "sha256": "ab630a798e9824f97346016384815b4fb22c5c8e82c1d67be7cee8ab8dcb79c6"
     },
     {
       "file": "windy.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 18618,
+      "width": 120,
+      "height": 120,
+      "bytes": 22790,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "addc7c3a7c90a9cdae327b548e9c2529b5d88a7bbd304ce6c5bac7288a60e457"
+      "sha256": "2bc7aeb103f1d5a96e30ba9c15b6af12927e28a235cfff4914bf7a1530a030c8"
     },
     {
       "file": "wintrymix.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 14701,
+      "width": 120,
+      "height": 120,
+      "bytes": 17467,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "df7672dec54b409c4aae0d6b5faebf1772e3e8a5f1abe33179fed5448bb31129"
+      "sha256": "007c5f306913a0da5ad181e1e2d2c7f243fb5e197d054ff1d66dd498854d4775"
     },
     {
       "file": "wintrymixn.png",
-      "width": 110,
-      "height": 110,
-      "bytes": 21446,
+      "width": 120,
+      "height": 120,
+      "bytes": 25748,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "5b3ac9dc06124f9e4be92c92fca71c77507976f9ee15f66cf718eb3224f54485"
+      "sha256": "0b1347e1a8462edd58552c3e1d9f314d81544fe749f9d47f377703b34612b6bd"
     }
   ]
 }
