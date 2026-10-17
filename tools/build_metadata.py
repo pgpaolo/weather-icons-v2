@@ -121,7 +121,7 @@ def gallery_text(items: list[dict]) -> str:
             name = item["file"]
             lines.append(
                 f'    <td align="center"><img src="../icons/{name}" '
-                f'width="110" height="110" alt="{name}"><br><code>{name}</code></td>'
+                f'width="120" height="120" alt="{name}"><br><code>{name}</code></td>'
             )
         for _ in range(columns - len(chunk)):
             lines.append("    <td></td>")
