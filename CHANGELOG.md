@@ -2,6 +2,14 @@
 
 All notable changes to Weather Icons are documented here.
 
+## [3.7.0] - 2026-10-17
+
+### Artwork
+- Created separate `v3.7` branch from `v3.6`, preserving older branches and `main`.
+- Upscaled all 147 v3.6 RGBA PNGs from 110×110 to 120×120 using high-quality Lanczos interpolation, including visible subject and transparent margins.
+- Preserved filenames, Aeris mapping (113 entries), alpha transparency, and Personal Use License.
+- Rebuilt metadata, gallery, and canonical icon ZIP with 120×120 assets.
+
 ## [3.6.0] - 2026-10-17
 
 ### Artwork
