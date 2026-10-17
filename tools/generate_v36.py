@@ -11,6 +11,7 @@ from __future__ import annotations
 
 from io import BytesIO
 from pathlib import Path
+import subprocess
 from statistics import median
 from zipfile import ZipFile, ZIP_DEFLATED
 
@@ -84,10 +85,26 @@ def main() -> None:
     if len(files) != EXPECTED_ICONS:
         raise SystemExit(f"Expected {EXPECTED_ICONS} icons, found {len(files)}")
 
+    # Always regenerate from the original v3.5 sources, not previously
+    # enlarged v3.6 assets: rerunning this workflow is therefore idempotent.
+    base_commit = "d15b43e7c7c0a7aeda22c469ee583df0d8a83517"
+    subprocess.run(
+        ["git", "fetch", "--no-tags", "--depth=1", "origin", "v3.5"],
+        cwd=ROOT, check=True,
+    )
+    fetched = subprocess.check_output(
+        ["git", "rev-parse", "FETCH_HEAD"], cwd=ROOT, text=True
+    ).strip()
+    if fetched != base_commit:
+        raise SystemExit("v3.5 source changed; inspect it before rebuilding v3.6")
+
     originals = {}
     reference_footprints = []
     for path in files:
-        with Image.open(path) as source:
+        raw = subprocess.check_output(
+            ["git", "show", f"FETCH_HEAD:icons/{path.name}"], cwd=ROOT
+        )
+        with Image.open(BytesIO(raw)) as source:
             img = source.convert("RGBA")
         originals[path] = img
         if img.size == (CANVAS, CANVAS):
