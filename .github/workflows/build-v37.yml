@@ -1,0 +1,45 @@
+name: Generate Weather Icons v3.7
+
+on:
+  push:
+    branches:
+      - v3.7
+    paths:
+      - "tools/generate_v37.py"
+      - ".github/workflows/build-v37.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  upscale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout v3.7
+        uses: actions/checkout@v4
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Upscale 147 icons to 120x120
+        run: python tools/generate_v37.py
+
+      - name: Rebuild manifest, catalog, and gallery
+        run: python tools/build_metadata.py
+
+      - name: Validate generated metadata and Aeris mapping
+        run: python tools/build_metadata.py --check
+
+      - name: Publish v3.7 RGBA icons
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add icons/ manifest.json docs/ICON_CATALOG.md docs/GALLERY.md dist/source-icons.zip
+          if git diff --cached --quiet; then
+            echo "v3.7 icon set already up to date."
+            exit 0
+          fi
+          git commit -m "feat(v3.7): release 147 transparent PNG icons at 120x120"
+          git push origin HEAD:v3.7
