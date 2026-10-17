@@ -2,6 +2,15 @@
 
 All notable changes to Weather Icons are documented here.
 
+## [3.6.0] - 2026-10-17
+
+### Artwork
+- Created dedicated `v3.6` branch from `v3.5` without changing the existing versions.
+- Normalized all 147 PNG canvases to 110×110 pixels, including previously smaller icons.
+- Increased the visible artwork size by 2 pixels where margins allow; small icons are brought to the collection's reference visual scale.
+- Preserved RGBA transparency, filenames, mapping keys, and the proprietary Personal Use License.
+- Rebuilt manifest, catalog, gallery and source ZIP from the normalized icons.
+
 ## [Unreleased]
 
 ### Licensing
