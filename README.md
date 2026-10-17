@@ -17,6 +17,7 @@ WeeWX/Weather34-style interfaces, and other filename-based weather themes.
 | `v3` | Version 3 artwork | 147 PNG |
 | `v3.5` | Version 3.5 artwork | 147 PNG |
 | `v3.6` | Version 3.6 artwork: unified 110×110 px, visible artwork +2 px | 147 PNG |
+| `v3.7` | Version 3.7 artwork: proportional upscale to 120×120 px | 147 PNG |
 | `main` | Stable published set | 147 PNG |
 
 Each version branch is independent. GitHub Actions regenerates the
@@ -28,10 +29,10 @@ See [docs/VERSION_BRANCHES.md](docs/VERSION_BRANCHES.md).
 ## Status
 
 - **Stable branch:** `main`
-- **Version branches:** `v2`, `v2.5`, `v3`, `v3.5`, `v3.6`
+- **Version branches:** `v2`, `v2.5`, `v3`, `v3.5`, `v3.6`, `v3.7`
 - **Assets:** 147 transparent PNG files per version
 - **Weather mapping:** `aeris-icon-list.json` with 113 mappings
-- **Primary canvas:** 110×110 px for all 147 PNG files in `v3.6`
+- **Primary canvas:** 120×120 px for all 147 PNG files in `v3.7` (110×110 in `v3.6`)
 - **Transparency:** PNG/RGBA
 - **License:** Weather Icons Personal Use License 1.0
 
@@ -80,13 +81,13 @@ git clone https://github.com/pgpaolo/weather-icons-v2.git
 To clone a specific generation:
 
 ```bash
-git clone --branch v3.6 https://github.com/pgpaolo/weather-icons-v2.git
+git clone --branch v3.7 https://github.com/pgpaolo/weather-icons-v2.git
 ```
 
 Example HTML:
 
 ```html
-<img src="icons/clear-day.png" width="110" height="110" alt="Clear sky">
+<img src="icons/clear-day.png" width="120" height="120" alt="Clear sky">
 ```
 
 ## Aeris-style mapping
