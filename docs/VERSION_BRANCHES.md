@@ -9,6 +9,7 @@ Weather Icons v2 keeps artwork generations separated by branch.
 | `v3` | `icons-v3.zip` |
 | `v3.5` | `icons-v3.5.zip` |
 | `v3.6` | `dist/source-icons.zip` (all 147 PNGs at 110×110) |
+| `v3.7` | `dist/source-icons.zip` (all 147 PNGs at 120×120) |
 
 ## Upload procedure
 
