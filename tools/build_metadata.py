@@ -70,7 +70,7 @@ def validate_mapping(icon_names: set[str]) -> dict:
 def manifest_text(items: list[dict], mapping: dict) -> str:
     payload = {
         "project": "Weather Icons",
-        "version": "3.6.0",
+        "version": "3.7.0",
         "repository": "https://github.com/pgpaolo/weather-icons-v2",
         "license": "Weather Icons Personal Use License 1.0",
         "license_url": "https://github.com/pgpaolo/weather-icons-v2/blob/main/LICENSE",
