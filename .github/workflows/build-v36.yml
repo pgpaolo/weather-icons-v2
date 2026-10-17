@@ -1,0 +1,45 @@
+name: Generate Weather Icons v3.6
+
+on:
+  push:
+    branches:
+      - v3.6
+    paths:
+      - "tools/generate_v36.py"
+      - ".github/workflows/build-v36.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout v3.6
+        uses: actions/checkout@v4
+
+      - name: Install image processor
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Normalize all 147 icons to 110x110
+        run: python tools/generate_v36.py
+
+      - name: Rebuild manifest and gallery
+        run: python tools/build_metadata.py
+
+      - name: Validate generated metadata and mapping
+        run: python tools/build_metadata.py --check
+
+      - name: Publish v3.6 icon set
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add icons/ manifest.json docs/ICON_CATALOG.md docs/GALLERY.md dist/source-icons.zip
+          if git diff --cached --quiet; then
+            echo "v3.6 image set already current."
+            exit 0
+          fi
+          git commit -m "feat(v3.6): unify 147 transparent icons at 110x110"
+          git push origin HEAD:v3.6
