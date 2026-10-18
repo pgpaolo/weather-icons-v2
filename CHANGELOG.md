@@ -2,6 +2,16 @@
 
 All notable changes to Weather Icons are documented here.
 
+## [3.8.0] - 2026-10-18
+
+### Artwork
+- Derived the new v3.8 branch from v3.7, preserving earlier versions.
+- Retained identical 120×120 PNG canvases but enlarged *visible* weather pictograms by approximately 5% where margin permits.
+- Applied a stronger alpha-aware correction for visibly smaller symbols (e.g., rain and thunderstorm), seeking a 108px minimum substantive artwork span when possible.
+- Respected full alpha content to avoid losing rain, lightning, sunlight or cloud glow; see `docs/V3_8_SIZE_AUDIT.md` for individual measurements and size-limited exceptions.
+- Retained all 147 names, 113 Aeris mappings, PNG transparency and Personal Use License.
+- Regenerated the manifest, gallery, catalog and source-icons ZIP.
+
 ## [3.7.0] - 2026-10-17
 
 ### Artwork
