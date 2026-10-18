@@ -1303,21 +1303,21 @@
       "file": "sunrise.png",
       "width": 120,
       "height": 120,
-      "bytes": 9611,
+      "bytes": 9634,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "edee2a0453cee1b7ef72fc2ce0a19a7be0da4c5b1a1d0bd5301edd6abebca99c"
+      "sha256": "535d23bc19edb64705040232325387b5c220d1e77fe6a0511ed4c5ebab52098e"
     },
     {
       "file": "sunset.png",
       "width": 120,
       "height": 120,
-      "bytes": 10914,
+      "bytes": 10935,
       "bit_depth": 8,
       "color_type": 6,
       "rgba": true,
-      "sha256": "b04baaad134d891076d910aec93370798a13eed77698676504e676422fb64b68"
+      "sha256": "b3b4bbbe0801474b9380f59e9f8ca63b7670f5e45d8823f4e2932e745a94c950"
     },
     {
       "file": "Test.png",
